@@ -23,6 +23,8 @@ public class ModBlocks {
 
 
 
+
+
     public static final RegistryObject<Block> BLACK_SAND = registerBlock("black_sand", () ->
             new Block(BlockBehaviour.Properties.of(Material.SAND).strength(3f).
                     explosionResistance(3f).requiresCorrectToolForDrops().
@@ -37,6 +39,17 @@ public class ModBlocks {
             new Block(BlockBehaviour.Properties.of(Material.SAND).strength(3f).
                     explosionResistance(3f).requiresCorrectToolForDrops().
                     color(MaterialColor.COLOR_BLACK).sound(SoundType.SAND)), ModCreativeModTabs.BLOCKS);
+
+
+    public static final RegistryObject<Block> FLOURITE_ORE = registerBlock("flourite_ore", () -> new Block(BlockBehaviour.
+            Properties.of(Material.STONE).strength(3f).explosionResistance(3f).requiresCorrectToolForDrops().
+            sound(SoundType.STONE)), ModCreativeModTabs.BLOCKS);
+
+    public static final RegistryObject<Block> FLOURITE_ORE_DEEPSLATE = registerBlock("flourite_ore_deepslate", () -> new Block(BlockBehaviour.
+            Properties.of(Material.STONE).strength(4.5f).explosionResistance(3f).requiresCorrectToolForDrops().
+            sound(SoundType.DEEPSLATE)), ModCreativeModTabs.BLOCKS);
+
+
 
 
 
