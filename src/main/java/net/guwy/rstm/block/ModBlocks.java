@@ -28,6 +28,11 @@ public class ModBlocks {
                     explosionResistance(3f).requiresCorrectToolForDrops().
                     color(MaterialColor.COLOR_BLACK).sound(SoundType.SAND)), ModCreativeModTabs.BLOCKS);
 
+    public static final RegistryObject<Block> BLACK_SAND_DIAMOND = registerBlock("black_sand_diamond_ore", () ->
+            new Block(BlockBehaviour.Properties.of(Material.SAND).strength(3f).
+                    explosionResistance(3f).requiresCorrectToolForDrops().
+                    color(MaterialColor.COLOR_BLACK).sound(SoundType.SAND)), ModCreativeModTabs.BLOCKS);
+
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block,
