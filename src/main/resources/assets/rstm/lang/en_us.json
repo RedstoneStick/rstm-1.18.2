@@ -1,3 +1,9 @@
 {
-  "item.rstm.scrap_metal": "Scrap Metal"
+  "item.rstm.scrap_metal": "Scrap Metal",
+
+  "block.rstm.black_sand": "Black Sand",
+
+  "itemGroup.rstm_tab_blocks": "RSTM Blocks",
+  "itemGroup.rstm_tab_materials": "RSTM Materials"
+
 }

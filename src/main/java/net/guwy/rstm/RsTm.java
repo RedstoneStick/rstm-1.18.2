@@ -1,5 +1,6 @@
 package net.guwy.rstm;
 
+import net.guwy.rstm.block.ModBlocks;
 import net.guwy.rstm.item.ModItems;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -34,6 +35,7 @@ public class RsTm
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
 
