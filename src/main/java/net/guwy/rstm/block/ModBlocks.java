@@ -74,6 +74,14 @@ public class ModBlocks {
             Properties.of(Material.STONE).strength(4.5f).explosionResistance(3f).requiresCorrectToolForDrops().
             sound(SoundType.DEEPSLATE)), ModCreativeModTabs.BLOCKS);
 
+    public static final RegistryObject<Block> PLATINUM_ORE = registerBlock("platinum_ore", () -> new Block(BlockBehaviour.
+            Properties.of(Material.STONE).strength(3f).explosionResistance(3f).requiresCorrectToolForDrops().
+            sound(SoundType.STONE)), ModCreativeModTabs.BLOCKS);
+
+    public static final RegistryObject<Block> PLATINUM_ORE_DEEPSLATE = registerBlock("platinum_ore_deepslate", () -> new Block(BlockBehaviour.
+            Properties.of(Material.STONE).strength(4.5f).explosionResistance(3f).requiresCorrectToolForDrops().
+            sound(SoundType.DEEPSLATE)), ModCreativeModTabs.BLOCKS);
+
 
 
 
