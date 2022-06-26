@@ -10,6 +10,8 @@
   "block.rstm.magnesium_ore_deepslate": "Deepslate Magnesium Ore",
   "block.rstm.niter_ore": "Niter Ore",
   "block.rstm.niter_ore_deepslate": "Deepslate Niter Ore",
+  "block.rstm.palladium_ore": "Palladium Ore",
+  "block.rstm.palladium_ore_deepslate": "Deepslate Palladium Ore",
 
   "itemGroup.rstm_tab_blocks": "RSTM Blocks",
   "itemGroup.rstm_tab_materials": "RSTM Materials"
