@@ -18,6 +18,8 @@
   "block.rstm.thorium_ore_deepslate": "Deepslate Thorium Ore",
   "block.rstm.titanium_ore": "Titanium Ore",
   "block.rstm.titanium_ore_deepslate": "Deepslate Titanium Ore",
+  "block.rstm.uranium_ore": "Uranium Ore",
+  "block.rstm.uranium_ore_deepslate": "Deepslate Uranium Ore",
 
   "itemGroup.rstm_tab_blocks": "RSTM Blocks",
   "itemGroup.rstm_tab_materials": "RSTM Materials"
