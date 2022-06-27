@@ -1,5 +1,10 @@
 {
   "item.rstm.scrap_metal": "Scrap Metal",
+  "item.rstm.magnesium_crushed": "Crushed Magnesium",
+  "item.rstm.magnesium_dust": "Magnesium Powder",
+  "item.rstm.magnesium_ingot": "Magnesium Ingot",
+  "item.rstm.magnesium_nugget": "Magnesium Nugget",
+  "item.rstm.magnesium_raw": "Raw Magnesium",
 
   "block.rstm.black_sand": "Black Sand",
   "block.rstm.black_sand_diamond_ore": "Black Sand Diamond Ore",
