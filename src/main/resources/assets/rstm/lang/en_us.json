@@ -14,6 +14,8 @@
   "block.rstm.palladium_ore_deepslate": "Deepslate Palladium Ore",
   "block.rstm.platinum_ore": "Platinum Ore",
   "block.rstm.platinum_ore_deepslate": "Deepslate Platinum Ore",
+  "block.rstm.thorium_ore": "Thorium Ore",
+  "block.rstm.thorium_ore_deepslate": "Deepslate Thorium Ore",
 
   "itemGroup.rstm_tab_blocks": "RSTM Blocks",
   "itemGroup.rstm_tab_materials": "RSTM Materials"
