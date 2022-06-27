@@ -22,6 +22,9 @@ public class ModItems {
     public static final RegistryObject<Item> MAGNESIUM_NUGGET = ITEMS.register("magnesium_nugget",
             () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
 
+    public static final RegistryObject<Item> PALLADIUM_NUGGET = ITEMS.register("palladium_nugget",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
+
 
 
     // Dusts
