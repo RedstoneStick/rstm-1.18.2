@@ -24,6 +24,11 @@
   "item.rstm.titanium_dust": "Titanium Dust",
   "item.rstm.titanium_crushed": "Crushed Titanium",
   "item.rstm.titanium_raw": "Raw Titanium",
+  "item.rstm.uranium_ingot": "Uranium Ingot",
+  "item.rstm.uranium_nugget": "Uranium Nugget",
+  "item.rstm.uranium_dust": "Uranium Dust",
+  "item.rstm.uranium_crushed": "Crushed Uranium",
+  "item.rstm.uranium_raw": "Raw Uranium",
 
   "block.rstm.black_sand": "Black Sand",
   "block.rstm.black_sand_diamond_ore": "Black Sand Diamond Ore",
