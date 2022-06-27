@@ -16,6 +16,9 @@ public class ModItems {
     public static final RegistryObject<Item> MAGNESIUM_INGOT = ITEMS.register("magnesium_ingot",
             () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
 
+    public static final RegistryObject<Item> PLATINUM_INGOT = ITEMS.register("platinum_ingot",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
+
 
 
     // Nuggets
@@ -23,6 +26,9 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
 
     public static final RegistryObject<Item> PALLADIUM_NUGGET = ITEMS.register("palladium_nugget",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
+
+    public static final RegistryObject<Item> PLATINUM_NUGGET = ITEMS.register("platinum_nugget",
             () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
 
 
@@ -37,6 +43,9 @@ public class ModItems {
     public static final RegistryObject<Item> NITER_DUST = ITEMS.register("niter_dust",
             () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
 
+    public static final RegistryObject<Item> PLATINUM_DUST = ITEMS.register("platinum_dust",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
+
 
 
     // Crushed
@@ -44,6 +53,9 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
 
     public static final RegistryObject<Item> MAGNESIUM_CRUSHED = ITEMS.register("magnesium_crushed",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
+
+    public static final RegistryObject<Item> PLATINUM_CRUSHED = ITEMS.register("platinum_crushed",
             () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
 
 
