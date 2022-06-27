@@ -31,6 +31,9 @@ public class ModItems {
     public static final RegistryObject<Item> MAGNESIUM_DUST = ITEMS.register("magnesium_dust",
             () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
 
+    public static final RegistryObject<Item> NITER_DUST = ITEMS.register("niter_dust",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
+
 
 
     // Crushed
