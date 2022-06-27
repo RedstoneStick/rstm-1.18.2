@@ -1,0 +1,19 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "rstm:thorium_crushed"
+    }
+  ],
+  "results": [
+    {
+      "item": "rstm:thorium_nugget",
+      "count": 9
+    },
+    {
+      "item": "rstm:scrap_metal",
+      "count": 1,
+      "chance": 0.33
+    }
+  ]
+}

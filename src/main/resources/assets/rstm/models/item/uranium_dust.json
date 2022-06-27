@@ -1,3 +1,6 @@
 {
-  "parent": "rstm:block/uranium_dust"
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "rstm:item/minerals/uranium_dust"
+  }
 }

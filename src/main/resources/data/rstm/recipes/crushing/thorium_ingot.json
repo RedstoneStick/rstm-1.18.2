@@ -1,0 +1,15 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rstm:thorium_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "rstm:thorium_dust",
+      "count": 1
+    }
+  ],
+  "processingTime": 200
+}

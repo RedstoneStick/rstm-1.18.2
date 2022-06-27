@@ -1,3 +1,6 @@
 {
-  "parent": "rstm:block/titanium_crushed"
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "rstm:item/minerals/titanium_crushed"
+  }
 }

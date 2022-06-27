@@ -1,0 +1,19 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "rstm:uranium_crushed"
+    }
+  ],
+  "results": [
+    {
+      "item": "rstm:uranium_nugget",
+      "count": 9
+    },
+    {
+      "item": "rstm:scrap_metal",
+      "count": 1,
+      "chance": 0.33
+    }
+  ]
+}

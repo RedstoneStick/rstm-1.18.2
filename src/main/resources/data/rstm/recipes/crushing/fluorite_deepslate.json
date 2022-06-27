@@ -1,0 +1,28 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rstm:fluorite_ore_deepslate"
+    }
+  ],
+  "results": [
+    {
+      "item": "rstm:fluorite_cluster",
+      "count": 6
+    },
+    {
+      "item": "rstm:fluorite_cluster",
+	  "count": 3,
+      "chance": 0.75
+    },
+	{
+		"item": "create:experience_nugget",
+		"chance": 0.75
+	},
+    {
+      "item": "minecraft:cobbled_deepslate",
+      "chance": 0.12
+    }
+  ],
+  "processingTime": 200
+}

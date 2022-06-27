@@ -1,0 +1,19 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "rstm:platinum_crushed"
+    }
+  ],
+  "results": [
+    {
+      "item": "rstm:platinum_nugget",
+      "count": 2
+    },
+    {
+      "item": "rstm:scrap_metal",
+      "count": 1,
+      "chance": 0.33
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "rstm:thorium_nugget"
+    }
+  },
+  "result": {
+    "item": "rstm:thorium_ingot",
+    "count": 1
+  }
+}

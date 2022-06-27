@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "rstm:platinum_dust"
+  },
+  "result": "rstm:platinum_ingot",
+  "experience": 1.0,
+  "cookingtime": 100
+}

@@ -1,0 +1,23 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "rstm:black_sand_thorium_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "rstm:thorium_nugget",
+      "count": 9
+    },
+    {
+      "item": "rstm:thorium_nugget",
+      "count": 3,
+      "chance": 0.5
+    },
+    {
+      "item": "minecraft:iron_nugget",
+      "count": 3
+    }
+  ]
+}

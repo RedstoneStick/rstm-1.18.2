@@ -1,0 +1,19 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "rstm:black_sand"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:iron_nugget",
+      "count": 3
+    },
+    {
+      "item": "minecraft:iron_nugget",
+      "count": 3,
+      "chance": 0.5
+    }
+  ]
+}

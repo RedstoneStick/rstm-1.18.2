@@ -1,0 +1,28 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rstm:thorium_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "rstm:thorium_crushed",
+      "count": 1
+    },
+    {
+      "item": "rstm:thorium_crushed",
+	  "count": 1,
+      "chance": 0.75
+    },
+	{
+		"item": "create:experience_nugget",
+		"chance": 0.75
+	},
+    {
+      "item": "minecraft:cobblestone",
+      "chance": 0.12
+    }
+  ],
+  "processingTime": 250
+}

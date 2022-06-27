@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rstm:uranuium_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "rstm:uranuium_dust",
+      "count": 1
+    }
+  ],
+  "processingTime": 1000
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "rstm:uranium_ore_deepslate"
+  },
+  "result": "rstm:uranium_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

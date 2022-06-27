@@ -1,0 +1,28 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rstm:uranium_ore_deepslate"
+    }
+  ],
+  "results": [
+    {
+      "item": "rstm:uranium_crushed",
+      "count": 2
+    },
+    {
+      "item": "rstm:uranium_crushed",
+	  "count": 1,
+      "chance": 0.75
+    },
+	{
+		"item": "create:experience_nugget",
+		"chance": 0.75
+	},
+    {
+      "item": "minecraft:cobbled_deepslate",
+      "chance": 0.12
+    }
+  ],
+  "processingTime": 350
+}

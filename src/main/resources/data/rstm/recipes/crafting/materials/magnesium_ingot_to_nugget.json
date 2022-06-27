@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rstm:magnesium_ingot"
+    }
+  ],
+  "result": {
+    "item": "rstm:magnesium_nugget",
+    "count": 9
+  }
+}

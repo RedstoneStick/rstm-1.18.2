@@ -1,0 +1,15 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rstm:platinum_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "rstm:platinum_dust",
+      "count": 1
+    }
+  ],
+  "processingTime": 200
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "rstm:titanium_nugget"
+    }
+  },
+  "result": {
+    "item": "rstm:titanium_ingot",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "rstm:platinum_nugget"
+    }
+  },
+  "result": {
+    "item": "rstm:platinum_ingot",
+    "count": 1
+  }
+}

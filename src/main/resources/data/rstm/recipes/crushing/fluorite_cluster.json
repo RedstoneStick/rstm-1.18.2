@@ -1,0 +1,23 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rstm:fluorite_cluster"
+    }
+  ],
+  "results": [
+    {
+      "item": "rstm:fluorite_dust",
+      "count": 1
+    },
+    {
+      "item": "rstm:fluorite_dust",
+      "chance": 0.66
+    },
+    {
+      "item": "rstm:fluorite_dust",
+      "chance": 0.33
+    }
+  ],
+  "processingTime": 200
+}

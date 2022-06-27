@@ -118,6 +118,15 @@ public class ModItems {
     public static final RegistryObject<Item> SCRAP_METAL = ITEMS.register("scrap_metal",
             () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
 
+    public static final RegistryObject<Item> ASH = ITEMS.register("ash",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
+
+    public static final RegistryObject<Item> DUST = ITEMS.register("dust",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
+
+
+
+
 
 
     public static void register(IEventBus eventBus){

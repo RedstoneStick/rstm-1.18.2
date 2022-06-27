@@ -1,0 +1,28 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "rstm:black_sand_uranium_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "rstm:uranium_nugget",
+      "count": 3
+    },
+    {
+      "item": "rstm:uranium_nugget",
+      "count": 3,
+      "chance": 0.3
+    },
+    {
+      "item": "rstm:uranium_nugget",
+      "count": 3,
+      "chance": 0.3
+    },
+    {
+      "item": "minecraft:iron_nugget",
+      "count": 3
+    }
+  ]
+}

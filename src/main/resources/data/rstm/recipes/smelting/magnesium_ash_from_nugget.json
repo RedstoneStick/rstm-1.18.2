@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "rstm:magnesium_nugget"
+  },
+  "result": "rstm:ash",
+  "experience": 1.0,
+  "cookingtime": 400
+}

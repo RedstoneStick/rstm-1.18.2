@@ -1,0 +1,23 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "rstm:black_sand_platinum_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "rstm:platinum_nugget",
+      "count": 2
+    },
+    {
+      "item": "rstm:platinum_nugget",
+      "count": 2,
+      "chance": 0.33
+    },
+    {
+      "item": "minecraft:iron_nugget",
+      "count": 3
+    }
+  ]
+}
