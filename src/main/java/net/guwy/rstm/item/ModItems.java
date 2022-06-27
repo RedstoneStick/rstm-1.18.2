@@ -19,6 +19,9 @@ public class ModItems {
     public static final RegistryObject<Item> PLATINUM_INGOT = ITEMS.register("platinum_ingot",
             () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
 
+    public static final RegistryObject<Item> THORIUM_INGOT = ITEMS.register("thorium_ingot",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
+
 
 
     // Nuggets
@@ -29,6 +32,9 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
 
     public static final RegistryObject<Item> PLATINUM_NUGGET = ITEMS.register("platinum_nugget",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
+
+    public static final RegistryObject<Item> THORIUM_NUGGET = ITEMS.register("thorium_nugget",
             () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
 
 
@@ -49,6 +55,9 @@ public class ModItems {
     public static final RegistryObject<Item> SULFUR_DUST = ITEMS.register("sulfur_dust",
             () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
 
+    public static final RegistryObject<Item> THORIUM_DUST = ITEMS.register("thorium_dust",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
+
 
 
     // Crushed
@@ -61,10 +70,16 @@ public class ModItems {
     public static final RegistryObject<Item> PLATINUM_CRUSHED = ITEMS.register("platinum_crushed",
             () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
 
+    public static final RegistryObject<Item> THORIUM_CRUSHED = ITEMS.register("thorium_crushed",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
+
 
 
     // Raw Ores
     public static final RegistryObject<Item> MAGNESIUM_RAW = ITEMS.register("magnesium_raw",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
+
+    public static final RegistryObject<Item> THORIUM_RAW = ITEMS.register("thorium_raw",
             () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
 
 

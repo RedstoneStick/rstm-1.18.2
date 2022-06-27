@@ -14,6 +14,11 @@
   "item.rstm.platinum_dust": "Platinum Powder",
   "item.rstm.platinum_crushed": "Crushed Platinum",
   "item.rstm.sulfur_dust": "Sulfur",
+  "item.rstm.thorium_ingot": "Thorium Ingot",
+  "item.rstm.thorium_nugget": "Thorium Nugget",
+  "item.rstm.thorium_dust": "Thorium Powder",
+  "item.rstm.thorium_crushed": "Crushed Thorium",
+  "item.rstm.thorium_raw": "Raw Thorium",
 
   "block.rstm.black_sand": "Black Sand",
   "block.rstm.black_sand_diamond_ore": "Black Sand Diamond Ore",
