@@ -19,6 +19,11 @@
   "item.rstm.thorium_dust": "Thorium Powder",
   "item.rstm.thorium_crushed": "Crushed Thorium",
   "item.rstm.thorium_raw": "Raw Thorium",
+  "item.rstm.titanium_ingot": "Titanium Ingot",
+  "item.rstm.titanium_nugget": "Titanium Nugget",
+  "item.rstm.titanium_dust": "Titanium Dust",
+  "item.rstm.titanium_crushed": "Crushed Titanium",
+  "item.rstm.titanium_raw": "Raw Titanium",
 
   "block.rstm.black_sand": "Black Sand",
   "block.rstm.black_sand_diamond_ore": "Black Sand Diamond Ore",

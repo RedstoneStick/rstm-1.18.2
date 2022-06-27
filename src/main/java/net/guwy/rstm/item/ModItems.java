@@ -22,6 +22,9 @@ public class ModItems {
     public static final RegistryObject<Item> THORIUM_INGOT = ITEMS.register("thorium_ingot",
             () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
 
+    public static final RegistryObject<Item> TITANIUM_INGOT = ITEMS.register("titanium_ingot",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
+
 
 
     // Nuggets
@@ -35,6 +38,9 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
 
     public static final RegistryObject<Item> THORIUM_NUGGET = ITEMS.register("thorium_nugget",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
+
+    public static final RegistryObject<Item> TITANIUM_NUGGET = ITEMS.register("titanium_nugget",
             () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
 
 
@@ -58,6 +64,9 @@ public class ModItems {
     public static final RegistryObject<Item> THORIUM_DUST = ITEMS.register("thorium_dust",
             () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
 
+    public static final RegistryObject<Item> TITANIUM_DUST = ITEMS.register("titanium_dust",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
+
 
 
     // Crushed
@@ -73,6 +82,9 @@ public class ModItems {
     public static final RegistryObject<Item> THORIUM_CRUSHED = ITEMS.register("thorium_crushed",
             () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
 
+    public static final RegistryObject<Item> TITANIUM_CRUSHED = ITEMS.register("titanium_crushed",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
+
 
 
     // Raw Ores
@@ -80,6 +92,9 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
 
     public static final RegistryObject<Item> THORIUM_RAW = ITEMS.register("thorium_raw",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
+
+    public static final RegistryObject<Item> TITANIUM_RAW = ITEMS.register("titanium_raw",
             () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
 
 
