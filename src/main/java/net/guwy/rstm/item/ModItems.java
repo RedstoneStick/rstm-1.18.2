@@ -25,12 +25,18 @@ public class ModItems {
 
 
     // Dusts
+    public static final RegistryObject<Item> FLUORITE_DUST = ITEMS.register("fluorite_dust",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
+
     public static final RegistryObject<Item> MAGNESIUM_DUST = ITEMS.register("magnesium_dust",
             () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
 
 
 
     // Crushed
+    public static final RegistryObject<Item> FLUORITE_CLUSTER = ITEMS.register("fluorite_cluster",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
+
     public static final RegistryObject<Item> MAGNESIUM_CRUSHED = ITEMS.register("magnesium_crushed",
             () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
 
