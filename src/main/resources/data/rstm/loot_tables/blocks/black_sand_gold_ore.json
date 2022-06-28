@@ -7,12 +7,12 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "rstm:black_sand"
+          "name": "rstm:black_sand_gold_ore"
         }
       ],
       "conditions": [
         {
-          "condition": "minecraft:black_sand_gold_ore"
+          "condition": "minecraft:survives_explosion"
         }
       ]
     }

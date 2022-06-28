@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "rstm:fluorite_ore",
+    "rstm:fluorite_ore_deepslate",
+    "rstm:magnesium_ore",
+    "rstm:magnesium_ore_deepslate",
+    "rstm:niter_ore",
+    "rstm:niter_ore_deepslate",
+    "rstm:palladium_ore",
+    "rstm:palladium_ore_deepslate",
+    "rstm:platinum_ore",
+    "rstm:platinum_ore_deepslate",
+    "rstm:thorium_ore",
+    "rstm:thorium_ore_deepslate",
+    "rstm:titanium_ore",
+    "rstm:titanium_ore_deepslate",
+    "rstm:uranium_ore",
+    "rstm:uranium_ore_deepslate"
+  ]
+}

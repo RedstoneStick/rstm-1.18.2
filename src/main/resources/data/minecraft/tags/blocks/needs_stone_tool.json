@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "rstm:fluorite_ore",
+    "rstm:magnesium_ore",
+    "rstm:niter_ore",
+
+    "rstm:black_sand"
+  ]
+}
