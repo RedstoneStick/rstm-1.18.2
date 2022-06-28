@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "rstm:block/ores/flourite_ore_deepslate"
+    "all": "rstm:block/ores/fluorite_ore_deepslate"
   }
 }

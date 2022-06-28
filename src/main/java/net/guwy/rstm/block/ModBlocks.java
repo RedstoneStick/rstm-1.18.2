@@ -42,11 +42,11 @@ public class ModBlocks {
 
 
     // Ores
-    public static final RegistryObject<Block> FLOURITE_ORE = registerBlock("flourite_ore", () -> new Block(BlockBehaviour.
+    public static final RegistryObject<Block> FLUORITE_ORE = registerBlock("fluorite_ore", () -> new Block(BlockBehaviour.
             Properties.of(Material.STONE).strength(3f).explosionResistance(3f).requiresCorrectToolForDrops().
             sound(SoundType.STONE)), ModCreativeModTabs.BLOCKS);
 
-    public static final RegistryObject<Block> FLOURITE_ORE_DEEPSLATE = registerBlock("flourite_ore_deepslate", () -> new Block(BlockBehaviour.
+    public static final RegistryObject<Block> FLUORITE_ORE_DEEPSLATE = registerBlock("fluorite_ore_deepslate", () -> new Block(BlockBehaviour.
             Properties.of(Material.STONE).strength(4.5f).explosionResistance(3f).requiresCorrectToolForDrops().
             sound(SoundType.DEEPSLATE)), ModCreativeModTabs.BLOCKS);
 
