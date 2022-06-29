@@ -40,9 +40,9 @@ public class BoomStickItem extends Item {
     }
 
     private void goBoom(int X, int Y, int Z, Player player, Level level , float explosionRadius){
-        Explosion explosion = new Explosion(level, player,                                      // defines the explosion
-                X + 0.5f, Y + 1.2f, Z + 0.5f, explosionRadius, false,
-                Explosion.BlockInteraction.NONE);
+        Explosion explosion = new Explosion(level, player,
+                X + 0.5f, Y + 1.2f, Z + 0.5f, explosionRadius,
+                false, Explosion.BlockInteraction.NONE);                          // defines the explosion
 
         explosion.explode();                               // does the functional stuff
         explosion.finalizeExplosion(true);      // does the decorative stuff + item drops
