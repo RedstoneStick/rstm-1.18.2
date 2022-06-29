@@ -17,13 +17,7 @@ public class ModItems {
     // Tools
     public static final RegistryObject<Item> BOOMSTICK = ITEMS.register("boomstick",
             () -> new BoomStickItem(new Item.Properties().tab(ModCreativeModTabs.EQUIPMENT)
-                    .durability(1)));
-
-
-
-    // Materials
-    public static final RegistryObject<Item> IGNITER = ITEMS.register("igniter",
-            () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
+                    .durability(1).stacksTo(1)));
 
 
 
@@ -141,6 +135,9 @@ public class ModItems {
 
 
 
+    // Materials
+    public static final RegistryObject<Item> IGNITER = ITEMS.register("igniter",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
 
 
 
