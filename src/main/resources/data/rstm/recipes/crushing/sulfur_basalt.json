@@ -8,7 +8,7 @@
   "results": [
     {
       "item": "rstm:sulfur_dust",
-      "chance": 0.50
+      "chance": 0.15
     }
   ],
   "processingTime": 250

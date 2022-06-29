@@ -7,11 +7,11 @@
   ],
   "results": [
     {
-      "item": "rstm:palladium_shard",
+      "item": "rstm:palladium_nugget",
       "count": 2
     },
     {
-      "item": "rstm:palladium_shard",
+      "item": "rstm:palladium_nugget",
 	  "count": 1,
       "chance": 0.75
     },

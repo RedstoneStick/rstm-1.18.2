@@ -2,12 +2,12 @@
   "type": "create:milling",
   "ingredients": [
     {
-      "item": "rstm:uranuium_ingot"
+      "item": "rstm:uranium_ingot"
     }
   ],
   "results": [
     {
-      "item": "rstm:uranuium_dust",
+      "item": "rstm:uranium_dust",
       "count": 1
     }
   ],
