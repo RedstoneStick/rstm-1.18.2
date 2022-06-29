@@ -21,6 +21,12 @@ public class ModItems {
 
 
 
+    // Materials
+    public static final RegistryObject<Item> IGNITER = ITEMS.register("igniter",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
+
+
+
     // Ingots
     public static final RegistryObject<Item> MAGNESIUM_INGOT = ITEMS.register("magnesium_ingot",
             () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
