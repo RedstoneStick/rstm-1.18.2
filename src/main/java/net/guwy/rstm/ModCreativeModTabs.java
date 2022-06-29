@@ -19,4 +19,10 @@ public class ModCreativeModTabs {
         public ItemStack makeIcon() {
             return new ItemStack(ModItems.SCRAP_METAL.get());
         }};
+
+    public static final CreativeModeTab EQUIPMENT = new CreativeModeTab("rstm_tab_equipment") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(ModItems.BOOMSTICK.get());
+        }};
 }

@@ -55,6 +55,7 @@
   "block.rstm.uranium_ore_deepslate": "Deepslate Uranium Ore",
 
   "itemGroup.rstm_tab_blocks": "RSTM Blocks",
-  "itemGroup.rstm_tab_materials": "RSTM Materials"
+  "itemGroup.rstm_tab_materials": "RSTM Materials",
+  "itemGroup.rstm_tab_equipment": "RSTM Equipment"
 
 }
