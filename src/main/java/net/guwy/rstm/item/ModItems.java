@@ -17,7 +17,7 @@ public class ModItems {
     // Tools
     public static final RegistryObject<Item> BOOMSTICK = ITEMS.register("boomstick",
             () -> new BoomStickItem(new Item.Properties().tab(ModCreativeModTabs.EQUIPMENT)
-                    .durability(1).stacksTo(1)));
+                    .durability(1)));
 
 
 
