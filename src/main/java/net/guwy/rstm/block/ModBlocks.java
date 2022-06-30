@@ -2,6 +2,7 @@ package net.guwy.rstm.block;
 
 import net.guwy.rstm.ModCreativeModTabs;
 import net.guwy.rstm.RsTm;
+import net.guwy.rstm.block.custom.PavementBlock;
 import net.guwy.rstm.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -109,13 +110,13 @@ public class ModBlocks {
 
 
     // Building Blocks
-    public static final RegistryObject<Block> PAVEMENT = registerBlock("pavement", () -> new Block(BlockBehaviour.
+    public static final RegistryObject<Block> PAVEMENT = registerBlock("pavement", () -> new PavementBlock(BlockBehaviour.
             Properties.of(Material.STONE).strength(1.5f).explosionResistance(6f).requiresCorrectToolForDrops().
-            sound(SoundType.STONE)), ModCreativeModTabs.BLOCKS);
+            sound(SoundType.TUFF)), ModCreativeModTabs.BLOCKS);
 
-    public static final RegistryObject<Block> PAVEMENT_BRICKS = registerBlock("pavement_bricks", () -> new Block(BlockBehaviour.
+    public static final RegistryObject<Block> PAVEMENT_BRICKS = registerBlock("pavement_bricks", () -> new PavementBlock(BlockBehaviour.
             Properties.of(Material.STONE).strength(1.5f).explosionResistance(6f).requiresCorrectToolForDrops().
-            sound(SoundType.STONE)), ModCreativeModTabs.BLOCKS);
+            sound(SoundType.TUFF)), ModCreativeModTabs.BLOCKS);
 
 
 
