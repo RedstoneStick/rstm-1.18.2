@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "minecraft:gravel"
+    },
+    {
+      "fluid": "create:potion",
+      "nbt": {"Bottle":  "REGULAR", "Potion": "minecraft:swiftness"},
+      "amount": 200
+    }
+  ],
+  "results": [
+    {
+      "item": "rstm:pavement",
+      "count": 2
+    }
+  ],
+  "heatRequirement": "heated"
+}

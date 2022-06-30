@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xx",
+    "xx"
+  ],
+  "key": {
+    "x": {
+      "item": "rstm:pavement"
+    }
+  },
+  "result": {
+    "item": "rstm:pavement_bricks",
+    "count": 4
+  }
+}
