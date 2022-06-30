@@ -5,6 +5,9 @@
     "rstm:magnesium_ore",
     "rstm:niter_ore",
 
-    "rstm:black_sand"
+    "rstm:black_sand",
+
+    "rstm:path_pavement",
+    "rstm:path_pavement_bricks"
   ]
 }

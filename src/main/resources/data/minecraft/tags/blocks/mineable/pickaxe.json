@@ -16,6 +16,9 @@
     "rstm:titanium_ore",
     "rstm:titanium_ore_deepslate",
     "rstm:uranium_ore",
-    "rstm:uranium_ore_deepslate"
+    "rstm:uranium_ore_deepslate",
+
+    "rstm:path_pavement",
+    "rstm:path_pavement_bricks"
   ]
 }

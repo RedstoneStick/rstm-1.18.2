@@ -108,7 +108,14 @@ public class ModBlocks {
 
 
 
+    // Building Blocks
+    public static final RegistryObject<Block> PAVEMENT = registerBlock("pavement", () -> new Block(BlockBehaviour.
+            Properties.of(Material.STONE).strength(1.5f).explosionResistance(6f).requiresCorrectToolForDrops().
+            sound(SoundType.STONE)), ModCreativeModTabs.BLOCKS);
 
+    public static final RegistryObject<Block> PAVEMENT_BRICKS = registerBlock("pavement_bricks", () -> new Block(BlockBehaviour.
+            Properties.of(Material.STONE).strength(1.5f).explosionResistance(6f).requiresCorrectToolForDrops().
+            sound(SoundType.STONE)), ModCreativeModTabs.BLOCKS);
 
 
 
