@@ -2,13 +2,17 @@ package net.guwy.rstm.item;
 
 import net.guwy.rstm.ModCreativeModTabs;
 import net.guwy.rstm.RsTm;
+import net.guwy.rstm.block.custom.BurnableItem;
 import net.guwy.rstm.item.custom.BoomStickItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import org.jetbrains.annotations.Nullable;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, RsTm.MOD_ID);
@@ -138,6 +142,15 @@ public class ModItems {
     // Materials
     public static final RegistryObject<Item> IGNITER = ITEMS.register("igniter",
             () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
+
+
+
+    // Solid Fuels
+    public static final RegistryObject<Item> ROCKET_FUEL_SUGAR = ITEMS.register("rocket_fuel_sugar",
+            () -> new BurnableItem(new Item.Properties().tab(ModCreativeModTabs.MATERIALS), 800));
+
+    public static final RegistryObject<Item> ROCKET_FUEL_SOLID = ITEMS.register("rocket_fuel_solid",
+            () -> new BurnableItem(new Item.Properties().tab(ModCreativeModTabs.MATERIALS), 3200));
 
 
 
