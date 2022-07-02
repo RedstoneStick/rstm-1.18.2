@@ -33,6 +33,8 @@
   "item.rstm.dust": "Dust",
   "item.rstm.boomstick": "Boomstick",
   "item.rstm.igniter": "Igniter",
+  "item.rstm.noodles_chicken_xl": "XL Chicken Flavoured Insta Noodles",
+  "item.rstm.noodles_curry": "Curry Flavoured Insta Noodles",
 
   "block.rstm.black_sand": "Black Sand",
   "block.rstm.black_sand_diamond_ore": "Black Sand Diamond Ore",
@@ -58,6 +60,6 @@
 
   "itemGroup.rstm_tab_blocks": "RSTM Blocks",
   "itemGroup.rstm_tab_materials": "RSTM Materials",
-  "itemGroup.rstm_tab_equipment": "RSTM Equipment"
+  "itemGroup.rstm_tab_equipment": "RSTM Equipment and Consumables"
 
 }

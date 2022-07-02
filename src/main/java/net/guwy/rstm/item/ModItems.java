@@ -141,6 +141,15 @@ public class ModItems {
 
 
 
+    // Foods
+    public static final RegistryObject<Item> NOODLES_CHICKEN_XL = ITEMS.register("noodles_chicken_xl",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTabs.EQUIPMENT).food(ModFoods.NOODLES_CHICKEN_XL)));
+
+    public static final RegistryObject<Item> NOODLES_CURRY = ITEMS.register("noodles_curry",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTabs.EQUIPMENT).food(ModFoods.NOODLES_CURRY)));
+
+
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }
