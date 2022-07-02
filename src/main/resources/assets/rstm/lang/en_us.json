@@ -66,6 +66,11 @@
 
   "tooltip.rstm.scrap_metal": "§7May be useful down the line",
   "tooltip.rstm.ash": "§7I hate ash -Stick 2022",
-  "tooltip.rstm.dust": "§7HBM hates dust ;)"
+  "tooltip.rstm.dust": "§7HBM hates dust ;)",
+  "tooltip.rstm.boomstick.a": "§7unga bunga",
+  "tooltip.rstm.boomstick.b": "§eShift §7to translate",
+  "tooltip.rstm.boomstick.a.shift": "§7unga bunga",
+  "tooltip.rstm.boomstick.b.shift": "§7It goes boom",
+  "tooltip.rstm.pavement": "§7+20% speed"
 
 }

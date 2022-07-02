@@ -11,16 +11,16 @@ import org.jetbrains.annotations.Nullable;
 import java.util.List;
 
 public class TooltipItem extends Item {
-    String translatableTooltip;
+    String tooltipKey;
 
-    public TooltipItem(Properties pProperties, String translatableTooltip) {
+    public TooltipItem(Properties pProperties, String tooltipKey) {
         super(pProperties);
-        this.translatableTooltip = translatableTooltip;
+        this.tooltipKey = tooltipKey;
     }
 
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-        pTooltipComponents.add(new TranslatableComponent(translatableTooltip));
+        pTooltipComponents.add(new TranslatableComponent(tooltipKey));
     }
 }
