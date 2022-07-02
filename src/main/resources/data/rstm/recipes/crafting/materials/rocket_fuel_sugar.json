@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "rstm:niter_dust"
+    },
+    {
+      "item": "rstm:niter_dust"
+    }
+  ],
+  "result": {
+    "item": "rstm:rocket_fuel_sugar",
+    "count": 3
+  }
+}
