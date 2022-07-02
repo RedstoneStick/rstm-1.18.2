@@ -2,17 +2,14 @@ package net.guwy.rstm.item;
 
 import net.guwy.rstm.ModCreativeModTabs;
 import net.guwy.rstm.RsTm;
-import net.guwy.rstm.block.custom.BurnableItem;
+import net.guwy.rstm.item.custom.BurnableItem;
 import net.guwy.rstm.item.custom.BoomStickItem;
-import net.minecraft.world.item.CreativeModeTab;
+import net.guwy.rstm.item.custom.TooltipItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import org.jetbrains.annotations.Nullable;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, RsTm.MOD_ID);
@@ -129,13 +126,16 @@ public class ModItems {
 
     // Misc Materials
     public static final RegistryObject<Item> SCRAP_METAL = ITEMS.register("scrap_metal",
-            () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
+            () -> new TooltipItem(new Item.Properties().tab(ModCreativeModTabs.MATERIALS),
+                    "tooltip.rstm.scrap_metal"));
 
     public static final RegistryObject<Item> ASH = ITEMS.register("ash",
-            () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
+            () -> new TooltipItem(new Item.Properties().tab(ModCreativeModTabs.MATERIALS),
+                    "tooltip.rstm.ash"));
 
     public static final RegistryObject<Item> DUST = ITEMS.register("dust",
-            () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
+            () -> new TooltipItem(new Item.Properties().tab(ModCreativeModTabs.MATERIALS),
+                    "tooltip.rstm.dust"));
 
 
 

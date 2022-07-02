@@ -1,4 +1,4 @@
-package net.guwy.rstm.block.custom;
+package net.guwy.rstm.item.custom;
 
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;

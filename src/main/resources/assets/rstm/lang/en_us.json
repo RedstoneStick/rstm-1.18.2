@@ -62,6 +62,10 @@
 
   "itemGroup.rstm_tab_blocks": "RSTM Blocks",
   "itemGroup.rstm_tab_materials": "RSTM Materials",
-  "itemGroup.rstm_tab_equipment": "RSTM Equipment and Consumables"
+  "itemGroup.rstm_tab_equipment": "RSTM Equipment and Consumables",
+
+  "tooltip.rstm.scrap_metal": "§7May be useful down the line",
+  "tooltip.rstm.ash": "§7I hate ash -Stick 2022",
+  "tooltip.rstm.dust": "§7HBM hates dust ;)"
 
 }
