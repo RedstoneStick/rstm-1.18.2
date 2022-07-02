@@ -5,10 +5,10 @@
       "item": "minecraft:sugar"
     },
     {
-      "item": "rstm:niter_dust"
+      "tag": "forge:dusts/saltpeter"
     },
     {
-      "item": "rstm:niter_dust"
+      "tag": "forge:dusts/saltpeter"
     }
   ],
   "result": {
