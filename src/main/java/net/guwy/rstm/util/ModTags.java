@@ -10,13 +10,13 @@ import net.minecraftforge.common.Tags;
 
 public class ModTags {
     public static class Blocks {
-        public static final Tags.IOptionalNamedTag<Block> RANDOM_TAG = null;
+        public static final Tags.IOptionalNamedTag<Block> RANDOM_TAG = tag("randomly_tagged_blocks");
 
-        private static Tags.IOptionalNamedTag<Block> Tag(String name){
+        private static Tags.IOptionalNamedTag<Block> tag(String name){
             return BlockTags.createOptional(new ResourceLocation(RsTm.MOD_ID, name));
         }
 
-        private static Tags.IOptionalNamedTag<Block> ForgeTag(String name){
+        private static Tags.IOptionalNamedTag<Block> forgeTags(String name){
             return BlockTags.createOptional(new ResourceLocation("forge", name));
         }
     }
@@ -24,11 +24,11 @@ public class ModTags {
     public static class Items {
 
 
-        private static Tags.IOptionalNamedTag<Item> Tag(String name){
+        private static Tags.IOptionalNamedTag<Item> tag(String name){
             return ItemTags.createOptional(new ResourceLocation(RsTm.MOD_ID, name));
         }
 
-        private static Tags.IOptionalNamedTag<Item> ForgeTag(String name){
+        private static Tags.IOptionalNamedTag<Item> forgeTags(String name){
             return ItemTags.createOptional(new ResourceLocation("forge", name));
         }
     }
