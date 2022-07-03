@@ -124,6 +124,8 @@ public class ModBlocks {
 
 
 
+
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block,
                                                                      CreativeModeTab tab){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
@@ -137,10 +139,11 @@ public class ModBlocks {
     }
 
 
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block,
                                                                      CreativeModeTab tab, String tooltipKey){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
-        registerBlockItem(name, toReturn, tab);
+        registerBlockItem(name, toReturn, tab, tooltipKey);
         return toReturn;
     }
 
@@ -153,6 +156,7 @@ public class ModBlocks {
             }
         });
     }
+
 
     public static void register(IEventBus eventBus) {BLOCKS.register(eventBus);}
 }

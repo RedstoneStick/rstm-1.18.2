@@ -71,6 +71,7 @@
   "tooltip.rstm.boomstick.b": "§eShift §7to translate",
   "tooltip.rstm.boomstick.a.shift": "§7unga bunga",
   "tooltip.rstm.boomstick.b.shift": "§7It goes boom",
-  "tooltip.rstm.pavement": "§7+20% speed"
+  "tooltip.rstm.pavement": "§7+20% speed",
+  "tooltip.rstm.block.uranium_ore": "Hi"
 
 }
