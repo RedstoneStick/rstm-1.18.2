@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "rstm:uranium_crushed",
+    "rstm:platinum_crushed",
+    "rstm:thorium_crushed",
+    "rstm:titanium_crushed",
+    "rstm:magnesium_crushed"
+  ]
+}
