@@ -9,6 +9,7 @@ import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.FallingBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
@@ -29,17 +30,37 @@ public class ModBlocks {
 
     // Black Sand and its variants
     public static final RegistryObject<Block> BLACK_SAND = registerBlock("black_sand", () ->
-            new Block(BlockBehaviour.Properties.of(Material.SAND).strength(3f).
+            new FallingBlock(BlockBehaviour.Properties.of(Material.SAND).strength(3f).
                     explosionResistance(3f).requiresCorrectToolForDrops().
                     color(MaterialColor.COLOR_BLACK).sound(SoundType.SAND)), ModCreativeModTabs.BLOCKS);
 
     public static final RegistryObject<Block> BLACK_SAND_DIAMOND_ORE = registerBlock("black_sand_diamond_ore", () ->
-            new Block(BlockBehaviour.Properties.of(Material.SAND).strength(3f).
+            new FallingBlock(BlockBehaviour.Properties.of(Material.SAND).strength(3f).
                     explosionResistance(3f).requiresCorrectToolForDrops().
                     color(MaterialColor.COLOR_BLACK).sound(SoundType.SAND)), ModCreativeModTabs.BLOCKS);
 
     public static final RegistryObject<Block> BLACK_SAND_GOLD_ORE = registerBlock("black_sand_gold_ore", () ->
-            new Block(BlockBehaviour.Properties.of(Material.SAND).strength(3f).
+            new FallingBlock(BlockBehaviour.Properties.of(Material.SAND).strength(3f).
+                    explosionResistance(3f).requiresCorrectToolForDrops().
+                    color(MaterialColor.COLOR_BLACK).sound(SoundType.SAND)), ModCreativeModTabs.BLOCKS);
+
+    public static final RegistryObject<Block> BLACK_SAND_PLATINUM_ORE = registerBlock("black_sand_platinum_ore", () ->
+            new FallingBlock(BlockBehaviour.Properties.of(Material.SAND).strength(3f).
+                    explosionResistance(3f).requiresCorrectToolForDrops().
+                    color(MaterialColor.COLOR_BLACK).sound(SoundType.SAND)), ModCreativeModTabs.BLOCKS);
+
+    public static final RegistryObject<Block> BLACK_SAND_THORIUM_ORE = registerBlock("black_sand_thorium_ore", () ->
+            new FallingBlock(BlockBehaviour.Properties.of(Material.SAND).strength(3f).
+                    explosionResistance(3f).requiresCorrectToolForDrops().
+                    color(MaterialColor.COLOR_BLACK).sound(SoundType.SAND)), ModCreativeModTabs.BLOCKS);
+
+    public static final RegistryObject<Block> BLACK_SAND_TITANIUM_ORE = registerBlock("black_sand_titanium_ore", () ->
+            new FallingBlock(BlockBehaviour.Properties.of(Material.SAND).strength(3f).
+                    explosionResistance(3f).requiresCorrectToolForDrops().
+                    color(MaterialColor.COLOR_BLACK).sound(SoundType.SAND)), ModCreativeModTabs.BLOCKS);
+
+    public static final RegistryObject<Block> BLACK_SAND_URANIUM_ORE = registerBlock("black_sand_uranium_ore", () ->
+            new FallingBlock(BlockBehaviour.Properties.of(Material.SAND).strength(3f).
                     explosionResistance(3f).requiresCorrectToolForDrops().
                     color(MaterialColor.COLOR_BLACK).sound(SoundType.SAND)), ModCreativeModTabs.BLOCKS);
 
