@@ -7,6 +7,14 @@
     },
     {
       "item": "minecraft:gravel"
+    },
+    {
+      "fluid": "create:potion",
+      "nbt": {
+        "Bottle": "REGULAR",
+        "Potion": "minecraft:swiftness"
+      },
+      "amount": 500
     }
   ],
   "results": [
