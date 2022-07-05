@@ -175,24 +175,40 @@ public class ModBlocks {
 
     // Woods
     public static final RegistryObject<Block> PALE_CREAM_PLANKS = registerBlock("pale_cream_planks", () -> new Block(BlockBehaviour.
-            Properties.of(Material.WOOD).strength(2f).explosionResistance(3f).requiresCorrectToolForDrops().
+            Properties.of(Material.WOOD).strength(2f).explosionResistance(3f).
             sound(SoundType.WOOD)), ModCreativeModTabs.BLOCKS);
 
     public static final RegistryObject<Block> PALE_CREAM_SLAB = registerBlock("pale_cream_slab", () -> new SlabBlock(BlockBehaviour.
-            Properties.of(Material.WOOD).strength(2f).explosionResistance(3f).requiresCorrectToolForDrops().
+            Properties.of(Material.WOOD).strength(2f).explosionResistance(3f).
             sound(SoundType.WOOD)), ModCreativeModTabs.BLOCKS);
 
     public static final RegistryObject<Block> PALE_CREAM_STAIRS = registerBlock("pale_cream_stairs", () -> new StairBlock(
             () -> ModBlocks.PALE_CREAM_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.WOOD).strength(2f).
-            explosionResistance(3f).requiresCorrectToolForDrops().sound(SoundType.WOOD)), ModCreativeModTabs.BLOCKS);
+            explosionResistance(3f).sound(SoundType.WOOD)), ModCreativeModTabs.BLOCKS);
 
     public static final RegistryObject<Block> PALE_CREAM_FENCE = registerBlock("pale_cream_fence", () -> new FenceBlock(BlockBehaviour.
-            Properties.of(Material.WOOD).strength(2f).explosionResistance(3f).requiresCorrectToolForDrops().
+            Properties.of(Material.WOOD).strength(2f).explosionResistance(3f).
             sound(SoundType.WOOD)), ModCreativeModTabs.BLOCKS);
 
     public static final RegistryObject<Block> PALE_CREAM_FENCE_GATE = registerBlock("pale_cream_fence_gate", () -> new FenceGateBlock(
-            BlockBehaviour.Properties.of(Material.WOOD).strength(2f).explosionResistance(3f).
-                    requiresCorrectToolForDrops().sound(SoundType.WOOD)), ModCreativeModTabs.BLOCKS);
+            BlockBehaviour.Properties.of(Material.WOOD).strength(2f).explosionResistance(3f)
+                    .sound(SoundType.WOOD)), ModCreativeModTabs.BLOCKS);
+
+    public static final RegistryObject<Block> PALE_CREAM_BUTTON = registerBlock("pale_cream_button", () -> new WoodButtonBlock(
+            BlockBehaviour.Properties.of(Material.WOOD).strength(2f).explosionResistance(3f)
+                    .sound(SoundType.WOOD).noCollission()), ModCreativeModTabs.BLOCKS);
+
+    public static final RegistryObject<Block> PALE_CREAM_PRESSURE_PLATE = registerBlock("pale_cream_pressure_plate", () -> new
+            PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.of(Material.WOOD).strength(2f).
+            explosionResistance(3f).sound(SoundType.WOOD)), ModCreativeModTabs.BLOCKS);
+
+    public static final RegistryObject<Block> PALE_CREAM_DOOR = registerBlock("pale_cream_door", () -> new DoorBlock(
+            BlockBehaviour.Properties.of(Material.WOOD).strength(2f).explosionResistance(3f)
+                    .sound(SoundType.WOOD).noOcclusion()), ModCreativeModTabs.BLOCKS);
+
+    public static final RegistryObject<Block> PALE_CREAM_TRAPDOOR = registerBlock("pale_cream_trapdoor", () -> new TrapDoorBlock(
+            BlockBehaviour.Properties.of(Material.WOOD).strength(2f).explosionResistance(3f)
+                    .sound(SoundType.WOOD).noOcclusion()), ModCreativeModTabs.BLOCKS);
 
 
 

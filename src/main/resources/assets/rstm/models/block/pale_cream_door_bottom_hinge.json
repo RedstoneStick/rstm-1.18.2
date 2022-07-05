@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_rh",
+  "textures": {
+    "top": "rstm:block/wood/pale_cream/pale_cream_door_top",
+    "bottom": "rstm:block/wood/pale_cream/pale_cream_door_bottom"
+  }
+}

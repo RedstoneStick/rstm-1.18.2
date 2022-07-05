@@ -45,6 +45,7 @@
   "block.rstm.black_sand_thorium_ore": "Black Sand Thorium Ore",
   "block.rstm.black_sand_titanium_ore": "Black Sand Titanium Ore",
   "block.rstm.black_sand_uranium_ore": "Black Sand Uranium Ore",
+
   "block.rstm.fluorite_ore": "Fluorite Ore",
   "block.rstm.fluorite_ore_deepslate": "Deepslate Fluorite Ore",
   "block.rstm.magnesium_ore": "Magnesium Ore",
@@ -61,6 +62,7 @@
   "block.rstm.titanium_ore_deepslate": "Deepslate Titanium Ore",
   "block.rstm.uranium_ore": "Uranium Ore",
   "block.rstm.uranium_ore_deepslate": "Deepslate Uranium Ore",
+
   "block.rstm.pavement": "Pavement",
   "block.rstm.pavement_slab": "Pavement Slab",
   "block.rstm.pavement_stairs": "Pavement Stairs",
@@ -69,11 +71,16 @@
   "block.rstm.pavement_bricks_slab": "Pavement Bricks Slab",
   "block.rstm.pavement_bricks_stairs": "Pavement Bricks Stairs",
   "block.rstm.pavement_bricks_wall": "Pavement Bricks Wall",
+
   "block.rstm.pale_cream_planks": "Pale Cream Planks",
   "block.rstm.pale_cream_slab": "Pale Cream Slab",
   "block.rstm.pale_cream_stairs": "Pale Cream Stairs",
   "block.rstm.pale_cream_fence": "Pale Cream Fence",
   "block.rstm.pale_cream_fence_gate": "Pale Cream Fence Gate",
+  "block.rstm.pale_cream_button": "Pale Cream Button",
+  "block.rstm.pale_cream_pressure_plate": "Pale Cream Pressure Plate",
+  "block.rstm.pale_cream_door": "Pale Cream Door",
+  "block.rstm.pale_cream_trapdoor": "Pale Cream Trapdoor",
 
   "itemGroup.rstm_tab_blocks": "RSTM Blocks",
   "itemGroup.rstm_tab_materials": "RSTM Materials",

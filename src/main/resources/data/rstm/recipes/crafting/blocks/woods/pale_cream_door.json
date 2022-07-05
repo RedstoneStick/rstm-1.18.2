@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xx ",
+    "xx ",
+    "xx "
+  ],
+  "key": {
+    "x": {
+      "item": "rstm:pale_cream_planks"
+    }
+  },
+  "result": {
+    "item": "rstm:pale_cream_button",
+    "count": 3
+  }
+}

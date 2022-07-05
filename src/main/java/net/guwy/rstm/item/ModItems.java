@@ -143,6 +143,9 @@ public class ModItems {
     public static final RegistryObject<Item> IGNITER = ITEMS.register("igniter",
             () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
 
+    public static final RegistryObject<Item> ACC = ITEMS.register("acceleration_mechanism",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
+
 
 
     // Solid Fuels

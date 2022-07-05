@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "rstm:block/wood/pale_cream/pale_cream_planks"
+  }
+}

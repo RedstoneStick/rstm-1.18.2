@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "rstm:pale_cream_planks"
+    }
+  },
+  "result": {
+    "item": "rstm:pale_cream_trapdoor",
+    "count": 2
+  }
+}

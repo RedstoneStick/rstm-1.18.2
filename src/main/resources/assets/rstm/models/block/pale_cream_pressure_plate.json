@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/pressure_plate_up",
+  "textures": {
+    "texture": "rstm:block/wood/pale_cream/pale_cream_planks"
+  }
+}

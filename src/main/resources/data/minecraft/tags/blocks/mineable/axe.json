@@ -5,6 +5,10 @@
     "rstm:pale_cream_slab",
     "rstm:pale_cream_stairs",
     "rstm:pale_cream_fence",
-    "rstm:pale_cream_fence_gate"
+    "rstm:pale_cream_fence_gate",
+    "rstm:pale_cream_button",
+    "rstm:pale_cream_pressure_plate",
+    "rstm:pale_cream_door",
+    "rstm:pale_cream_trapdoor"
   ]
 }
