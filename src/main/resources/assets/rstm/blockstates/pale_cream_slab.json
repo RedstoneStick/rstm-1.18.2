@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "rstm:block/pale_cream_slab"
+    },
+    "type=double": {
+      "model": "rstm:block/pale_cream_planks"
+    },
+    "type=top": {
+      "model": "rstm:block/pale_cream_slab_top"
+    }
+  }
+}

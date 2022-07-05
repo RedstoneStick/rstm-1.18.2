@@ -3,14 +3,15 @@ package net.guwy.rstm.block;
 import net.guwy.rstm.ModCreativeModTabs;
 import net.guwy.rstm.RsTm;
 import net.guwy.rstm.block.custom.PavementBlock;
+import net.guwy.rstm.block.custom.PavementSlabBlock;
+import net.guwy.rstm.block.custom.PavementStairsBlock;
+import net.guwy.rstm.block.custom.PavementWallBlock;
 import net.guwy.rstm.item.ModItems;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.FallingBlock;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.MaterialColor;
@@ -138,9 +139,60 @@ public class ModBlocks {
             Properties.of(Material.STONE).strength(1.5f).explosionResistance(6f).requiresCorrectToolForDrops().
             sound(SoundType.TUFF)), ModCreativeModTabs.BLOCKS, "tooltip.rstm.pavement");
 
+    /** public static final RegistryObject<Block> PAVEMENT_SLAB = registerBlock("pavement_slab", () -> new PavementSlabBlock(BlockBehaviour.
+            Properties.of(Material.STONE).strength(1.5f).explosionResistance(6f).requiresCorrectToolForDrops().
+            sound(SoundType.TUFF)), ModCreativeModTabs.BLOCKS, "tooltip.rstm.pavement");
+
+    public static final RegistryObject<Block> PAVEMENT_STAIRS = registerBlock("pavement_stairs", () -> new PavementStairsBlock(
+            () -> ModBlocks.PAVEMENT.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE).strength(1.5f).
+            explosionResistance(6f).requiresCorrectToolForDrops().
+            sound(SoundType.TUFF)), ModCreativeModTabs.BLOCKS, "tooltip.rstm.pavement");
+
+    public static final RegistryObject<Block> PAVEMENT_WALL = registerBlock("pavement_wall", () -> new PavementWallBlock(BlockBehaviour.
+            Properties.of(Material.STONE).strength(1.5f).explosionResistance(6f).requiresCorrectToolForDrops().
+            sound(SoundType.TUFF)), ModCreativeModTabs.BLOCKS, "tooltip.rstm.pavement");
+    **/
     public static final RegistryObject<Block> PAVEMENT_BRICKS = registerBlock("pavement_bricks", () -> new PavementBlock(BlockBehaviour.
             Properties.of(Material.STONE).strength(1.5f).explosionResistance(6f).requiresCorrectToolForDrops().
             sound(SoundType.TUFF)), ModCreativeModTabs.BLOCKS, "tooltip.rstm.pavement");
+    /**
+    public static final RegistryObject<Block> PAVEMENT_BRICKS_SLAB = registerBlock("pavement_bricks_slab", () -> new PavementSlabBlock(
+            BlockBehaviour.Properties.of(Material.STONE).strength(1.5f).explosionResistance(6f).
+                    requiresCorrectToolForDrops().sound(SoundType.TUFF)), ModCreativeModTabs.BLOCKS, "tooltip.rstm.pavement");
+
+    public static final RegistryObject<Block> PAVEMENT_BRICKS_STAIRS = registerBlock("pavement_bricks_stairs", () -> new PavementStairsBlock(
+            () -> ModBlocks.PAVEMENT.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE).strength(1.5f).
+            explosionResistance(6f).requiresCorrectToolForDrops().
+            sound(SoundType.TUFF)), ModCreativeModTabs.BLOCKS, "tooltip.rstm.pavement");
+
+    public static final RegistryObject<Block> PAVEMENT_BRICKS_WALL = registerBlock("pavement_bricks_wall", () -> new PavementWallBlock(
+            BlockBehaviour.Properties.of(Material.STONE).strength(1.5f).explosionResistance(6f).
+                    requiresCorrectToolForDrops().sound(SoundType.TUFF)), ModCreativeModTabs.BLOCKS, "tooltip.rstm.pavement");
+     **/
+
+
+
+
+    // Woods
+    public static final RegistryObject<Block> PALE_CREAM_PLANKS = registerBlock("pale_cream_planks", () -> new Block(BlockBehaviour.
+            Properties.of(Material.WOOD).strength(2f).explosionResistance(3f).requiresCorrectToolForDrops().
+            sound(SoundType.WOOD)), ModCreativeModTabs.BLOCKS);
+
+    public static final RegistryObject<Block> PALE_CREAM_SLAB = registerBlock("pale_cream_slab", () -> new SlabBlock(BlockBehaviour.
+            Properties.of(Material.WOOD).strength(2f).explosionResistance(3f).requiresCorrectToolForDrops().
+            sound(SoundType.WOOD)), ModCreativeModTabs.BLOCKS);
+
+    public static final RegistryObject<Block> PALE_CREAM_STAIRS = registerBlock("pale_cream_stairs", () -> new StairBlock(
+            () -> ModBlocks.PALE_CREAM_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.WOOD).strength(2f).
+            explosionResistance(3f).requiresCorrectToolForDrops().sound(SoundType.WOOD)), ModCreativeModTabs.BLOCKS);
+
+    public static final RegistryObject<Block> PALE_CREAM_FENCE = registerBlock("pale_cream_fence", () -> new FenceBlock(BlockBehaviour.
+            Properties.of(Material.WOOD).strength(2f).explosionResistance(3f).requiresCorrectToolForDrops().
+            sound(SoundType.WOOD)), ModCreativeModTabs.BLOCKS);
+
+    public static final RegistryObject<Block> PALE_CREAM_FENCE_GATE = registerBlock("pale_cream_fence_gate", () -> new FenceGateBlock(
+            BlockBehaviour.Properties.of(Material.WOOD).strength(2f).explosionResistance(3f).
+                    requiresCorrectToolForDrops().sound(SoundType.WOOD)), ModCreativeModTabs.BLOCKS);
 
 
 

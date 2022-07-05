@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "rstm:block/wood/pale_cream/pale_cream_planks",
+    "top": "rstm:block/wood/pale_cream/pale_cream_planks",
+    "side": "rstm:block/wood/pale_cream/pale_cream_planks"
+  }
+}
