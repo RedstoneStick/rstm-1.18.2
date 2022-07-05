@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "rstm:block/blocks/pavement_bricks",
+    "top": "rstm:block/blocks/pavement_bricks",
+    "side": "rstm:block/blocks/pavement_bricks"
+  }
+}

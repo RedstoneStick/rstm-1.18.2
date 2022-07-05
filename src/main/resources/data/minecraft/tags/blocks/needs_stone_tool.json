@@ -7,7 +7,13 @@
 
     "rstm:black_sand",
 
-    "rstm:path_pavement",
-    "rstm:path_pavement_bricks"
+    "rstm:pavement",
+    "rstm:pavement_slab",
+    "rstm:pavement_stairs",
+    "rstm:pavement_wall",
+    "rstm:pavement_bricks",
+    "rstm:pavement_bricks_slab",
+    "rstm:pavement_bricks_stairs",
+    "rstm:pavement_bricks_wall"
   ]
 }

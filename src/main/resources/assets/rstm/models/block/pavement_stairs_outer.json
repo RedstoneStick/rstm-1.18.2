@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "rstm:block/blocks/pavement",
+    "top": "rstm:block/blocks/pavement",
+    "side": "rstm:block/blocks/pavement"
+  }
+}

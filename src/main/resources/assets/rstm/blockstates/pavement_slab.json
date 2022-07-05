@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "rstm:block/pavement_slab"
+    },
+    "type=double": {
+      "model": "rstm:block/pavement"
+    },
+    "type=top": {
+      "model": "rstm:block/pavement_slab_top"
+    }
+  }
+}

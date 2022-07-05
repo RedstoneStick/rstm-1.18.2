@@ -139,7 +139,7 @@ public class ModBlocks {
             Properties.of(Material.STONE).strength(1.5f).explosionResistance(6f).requiresCorrectToolForDrops().
             sound(SoundType.TUFF)), ModCreativeModTabs.BLOCKS, "tooltip.rstm.pavement");
 
-    /** public static final RegistryObject<Block> PAVEMENT_SLAB = registerBlock("pavement_slab", () -> new PavementSlabBlock(BlockBehaviour.
+    public static final RegistryObject<Block> PAVEMENT_SLAB = registerBlock("pavement_slab", () -> new PavementSlabBlock(BlockBehaviour.
             Properties.of(Material.STONE).strength(1.5f).explosionResistance(6f).requiresCorrectToolForDrops().
             sound(SoundType.TUFF)), ModCreativeModTabs.BLOCKS, "tooltip.rstm.pavement");
 
@@ -151,11 +151,11 @@ public class ModBlocks {
     public static final RegistryObject<Block> PAVEMENT_WALL = registerBlock("pavement_wall", () -> new PavementWallBlock(BlockBehaviour.
             Properties.of(Material.STONE).strength(1.5f).explosionResistance(6f).requiresCorrectToolForDrops().
             sound(SoundType.TUFF)), ModCreativeModTabs.BLOCKS, "tooltip.rstm.pavement");
-    **/
+
     public static final RegistryObject<Block> PAVEMENT_BRICKS = registerBlock("pavement_bricks", () -> new PavementBlock(BlockBehaviour.
             Properties.of(Material.STONE).strength(1.5f).explosionResistance(6f).requiresCorrectToolForDrops().
             sound(SoundType.TUFF)), ModCreativeModTabs.BLOCKS, "tooltip.rstm.pavement");
-    /**
+
     public static final RegistryObject<Block> PAVEMENT_BRICKS_SLAB = registerBlock("pavement_bricks_slab", () -> new PavementSlabBlock(
             BlockBehaviour.Properties.of(Material.STONE).strength(1.5f).explosionResistance(6f).
                     requiresCorrectToolForDrops().sound(SoundType.TUFF)), ModCreativeModTabs.BLOCKS, "tooltip.rstm.pavement");
@@ -168,7 +168,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> PAVEMENT_BRICKS_WALL = registerBlock("pavement_bricks_wall", () -> new PavementWallBlock(
             BlockBehaviour.Properties.of(Material.STONE).strength(1.5f).explosionResistance(6f).
                     requiresCorrectToolForDrops().sound(SoundType.TUFF)), ModCreativeModTabs.BLOCKS, "tooltip.rstm.pavement");
-     **/
+
 
 
 

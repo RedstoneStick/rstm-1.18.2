@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "rstm:pavement_bricks"
+  },
+  "result": "rstm:pavement_bricks_wall",
+  "count": 1
+}

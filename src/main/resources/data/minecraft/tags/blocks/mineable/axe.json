@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
-
+    "rstm:pale_cream_planks",
+    "rstm:pale_cream_slab",
+    "rstm:pale_cream_stairs",
+    "rstm:pale_cream_fence",
+    "rstm:pale_cream_fence_gate"
   ]
 }

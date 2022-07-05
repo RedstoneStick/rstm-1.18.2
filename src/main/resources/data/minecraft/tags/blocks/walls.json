@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "rstm:pavement_wall",
+    "rstm:pavement_bricks_wall"
+  ]
+}
