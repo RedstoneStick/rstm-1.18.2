@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "rstm:item/items/circuit_industrial_grade_incomplete"
+    "layer0": "rstm:item/items/circuit_industrial_incomplete"
   }
 }
