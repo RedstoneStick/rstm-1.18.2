@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": {"model": "rstm:block/modular_frame_heavy"}
+  }
+}

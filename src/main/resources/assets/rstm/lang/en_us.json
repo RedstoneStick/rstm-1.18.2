@@ -1,5 +1,4 @@
 {
-  "item.rstm.scrap_metal": "Scrap Metal",
   "item.rstm.magnesium_crushed": "Crushed Magnesium",
   "item.rstm.magnesium_dust": "Magnesium Powder",
   "item.rstm.magnesium_ingot": "Magnesium Ingot",
@@ -29,14 +28,68 @@
   "item.rstm.uranium_dust": "Uranium Dust",
   "item.rstm.uranium_crushed": "Crushed Uranium",
   "item.rstm.uranium_raw": "Raw Uranium",
+
+  "item.rstm.scrap_metal": "Scrap Metal",
   "item.rstm.ash": "Ash",
   "item.rstm.dust": "Dust",
+
   "item.rstm.boomstick": "Boomstick",
+
   "item.rstm.igniter": "Igniter",
-  "item.rstm.noodles_chicken_xl": "XL Chicken Flavoured Insta Noodles",
-  "item.rstm.noodles_curry": "Curry Flavoured Insta Noodles",
+
   "item.rstm.rocket_fuel_sugar": "Sugar Fuel",
   "item.rstm.rocket_fuel_solid": "Solid Fuel",
+
+  "item.rstm.circuit_basic": "Basic Circuitry",
+  "item.rstm.circuit_basic_incomplete": "Incomplete Basic Circuitry",
+  "item.rstm.circuit_enhanced": "Enhanced Circuitry",
+  "item.rstm.circuit_enhanced_incomplete": "Incomplete Basic Enhanced",
+  "item.rstm.circuit_advanced": "Advanced Circuitry",
+  "item.rstm.circuit_advanced_incomplete": "Incomplete Basic Advanced",
+  "item.rstm.circuit_industrial_grade": "Industrial Grade Circuitry",
+  "item.rstm.circuit_industrial_grade_incomplete": "Incomplete Industrial Grade Circuitry",
+  "item.rstm.circuit_overclocked": "Overclocked Circuitry",
+  "item.rstm.circuit_overclocked_incomplete": "Incomplete Overclocked Circuitry",
+  "item.rstm.circuit_reliable": "Reliable Circuitry",
+  "item.rstm.circuit_reliable_assembly": "Reliable Circuitry Assembly",
+  "item.rstm.circuit_reliable_incomplete": "Incomplete Reliable Circuitry",
+  "item.rstm.circuit_avionics": "Avionics Circuitry",
+  "item.rstm.circuit_avionics_incomplete": "Incomplete Avionics Circuitry",
+  "item.rstm.circuit_capacitive": "Capacitive Circuitry",
+  "item.rstm.circuit_capacitive_incomplete": "Incomplete Capacitive Circuitry",
+
+  "item.rstm.steel_ingot": "Steel Ingot",
+
+  "item.rstm.sheet_steel": "Steel Sheet",
+  "item.rstm.sheet_titanium": "Titanium Sheet",
+
+  "item.rstm.wire_copper": "Copper Wire",
+  "item.rstm.wire_gold": "Gold Wire",
+  "item.rstm.wire_steel": "Steel Wire",
+
+  "item.rstm.coil_copper": "Copper Coil",
+  "item.rstm.coil_steel": "Gold Coil",
+
+  "item.rstm.foil_copper": "Copper Foil",
+  "item.rstm.foil_iron": "Iron Foil",
+  "item.rstm.foil_steel": "Steel Foil",
+  "item.rstm.foil_titanium": "Titanium Foil",
+
+  "item.rstm.motor": "Motor",
+
+  "item.rstm.panel_glass_reinforced": "Reinforced Glass Panel",
+  "item.rstm.panel_insulator": "Insulator",
+
+  "item.rstm.noodles_chicken_xl": "XL Chicken Flavoured Insta Noodles",
+  "item.rstm.noodles_curry": "Curry Flavoured Insta Noodles",
+
+  "block.rstm.modular_frame": "Modular Frame",
+  "block.rstm.modular_frame_heavy": "Heavy Modular Frame",
+  "block.rstm.screws": "Screws",
+  "block.rstm.steel_beam": "Steel Beam",
+  "block.rstm.steel_pipes": "Steel Pipes",
+  "block.rstm.titanium_beam": "Titanium Beam",
+  "block.rstm.titanium_pipes": "Titanium Pipes",
 
   "block.rstm.black_sand": "Black Sand",
   "block.rstm.black_sand_diamond_ore": "Black Sand Diamond Ore",
@@ -94,6 +147,5 @@
   "tooltip.rstm.boomstick.a.shift": "§7unga bunga",
   "tooltip.rstm.boomstick.b.shift": "§7It goes boom",
   "tooltip.rstm.pavement": "§7+20% speed",
-  "tooltip.rstm.block.uranium_ore": "Hi"
-
+  "tooltip.rstm.crafting_material": "§7[Crafting Material]"
 }

@@ -212,6 +212,43 @@ public class ModBlocks {
 
 
 
+    // Crafting Materials
+    public static final RegistryObject<Block> MODULAR_FRAME = registerBlock("modular_frame", () -> new Block(BlockBehaviour.
+            Properties.of(Material.METAL).strength(5f).explosionResistance(6f).
+            sound(SoundType.METAL).noOcclusion().isSuffocating((p_61036_, p_61037_, p_61038_) -> false).isViewBlocking((p_61036_, p_61037_, p_61038_)
+                    -> false)), ModCreativeModTabs.MATERIALS, "tooltip.rstm.crafting_material");
+
+    public static final RegistryObject<Block> MODULAR_FRAME_HEAVY = registerBlock("modular_frame_heavy", () -> new Block(BlockBehaviour.
+            Properties.of(Material.METAL).strength(5f).explosionResistance(6f).
+            sound(SoundType.METAL).noOcclusion().isSuffocating((p_61036_, p_61037_, p_61038_) -> false).isViewBlocking((p_61036_, p_61037_, p_61038_)
+                    -> false)), ModCreativeModTabs.MATERIALS, "tooltip.rstm.crafting_material");
+
+    public static final RegistryObject<Block> SCREWS = registerBlock("screws", () -> new Block(BlockBehaviour.
+            Properties.of(Material.METAL).strength(5f).explosionResistance(6f).
+            sound(SoundType.METAL).noOcclusion().isSuffocating((p_61036_, p_61037_, p_61038_) -> false)),
+            ModCreativeModTabs.MATERIALS, "tooltip.rstm.crafting_material");
+
+    public static final RegistryObject<Block> STEEL_BEAM = registerBlock("steel_beam", () -> new Block(BlockBehaviour.
+            Properties.of(Material.METAL).strength(5f).explosionResistance(6f).
+            sound(SoundType.METAL).noOcclusion().isSuffocating((p_61036_, p_61037_, p_61038_) -> false)),
+            ModCreativeModTabs.MATERIALS, "tooltip.rstm.crafting_material");
+
+    public static final RegistryObject<Block> STEEL_PIPES = registerBlock("steel_pipes", () -> new Block(BlockBehaviour.
+            Properties.of(Material.METAL).strength(5f).explosionResistance(6f).
+            sound(SoundType.METAL).noOcclusion().isSuffocating((p_61036_, p_61037_, p_61038_) -> false)),
+            ModCreativeModTabs.MATERIALS, "tooltip.rstm.crafting_material");
+
+    public static final RegistryObject<Block> TITANIUM_BEAM = registerBlock("titanium_beam", () -> new Block(BlockBehaviour.
+            Properties.of(Material.METAL).strength(5f).explosionResistance(6f).
+            sound(SoundType.METAL).noOcclusion().isSuffocating((p_61036_, p_61037_, p_61038_) -> false)),
+            ModCreativeModTabs.MATERIALS, "tooltip.rstm.crafting_material");
+
+    public static final RegistryObject<Block> TITANIUM_PIPES = registerBlock("titanium_pipes", () -> new Block(BlockBehaviour.
+            Properties.of(Material.METAL).strength(5f).explosionResistance(6f).
+            sound(SoundType.METAL).noOcclusion().isSuffocating((p_61036_, p_61037_, p_61038_) -> false)),
+            ModCreativeModTabs.MATERIALS, "tooltip.rstm.crafting_material");
+
+
 
 
 

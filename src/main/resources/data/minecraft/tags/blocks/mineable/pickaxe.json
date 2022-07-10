@@ -25,6 +25,14 @@
     "rstm:pavement_bricks",
     "rstm:pavement_bricks_slab",
     "rstm:pavement_bricks_stairs",
-    "rstm:pavement_bricks_wall"
+    "rstm:pavement_bricks_wall",
+
+    "rstm:modular_frame",
+    "rstm:modular_frame_heavy",
+    "rstm:screws",
+    "rstm:steel_beam",
+    "rstm:steel_pipes",
+    "rstm:titanium_beam",
+    "rstm:titanium_pipes"
   ]
 }
