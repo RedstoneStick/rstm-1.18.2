@@ -5,7 +5,7 @@ import net.guwy.rstm.RsTm;
 import net.guwy.rstm.item.custom.BurnableItem;
 import net.guwy.rstm.item.custom.BoomStickItem;
 import net.guwy.rstm.item.custom.TooltipItem;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -19,6 +19,30 @@ public class ModItems {
     public static final RegistryObject<Item> BOOMSTICK = ITEMS.register("boomstick",
             () -> new BoomStickItem(new Item.Properties().tab(ModCreativeModTabs.EQUIPMENT)
                     .durability(1)));
+
+    public static final RegistryObject<Item> TITANIUM_SWORD = ITEMS.register("titanium_sword",
+            () -> new SwordItem(ModTiers.TITANIUM, 3, -3f,
+                    new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+
+    public static final RegistryObject<Item> TITANIUM_AXE = ITEMS.register("titanium_axe",
+            () -> new AxeItem(ModTiers.TITANIUM, 5, -3.5f,
+                    new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+
+    public static final RegistryObject<Item> TITANIUM_PICKAXE = ITEMS.register("titanium_pickaxe",
+            () -> new PickaxeItem(ModTiers.TITANIUM, 1, -2.8f,
+                    new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+
+    public static final RegistryObject<Item> TITANIUM_SHOVEL = ITEMS.register("titanium_shovel",
+            () -> new ShovelItem(ModTiers.TITANIUM, 1, -3f,
+                    new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+
+    public static final RegistryObject<Item> TITANIUM_HOE = ITEMS.register("titanium_hoe",
+            () -> new HoeItem(ModTiers.TITANIUM, -3, 0f,
+                    new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+
+    //public static final RegistryObject<Item> SCRAP_METAL_SWORD = ITEMS.register("scrap_metal_sword",
+    //        () -> new SwordItem(ModTiers.TITANIUM, 3, -3f,
+    //                new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
 
 
