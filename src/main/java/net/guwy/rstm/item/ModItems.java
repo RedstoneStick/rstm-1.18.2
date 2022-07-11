@@ -4,7 +4,9 @@ import net.guwy.rstm.ModCreativeModTabs;
 import net.guwy.rstm.RsTm;
 import net.guwy.rstm.item.custom.BurnableItem;
 import net.guwy.rstm.item.custom.BoomStickItem;
+import net.guwy.rstm.item.custom.PotionSwordItem;
 import net.guwy.rstm.item.custom.TooltipItem;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -40,9 +42,10 @@ public class ModItems {
             () -> new HoeItem(ModTiers.TITANIUM, -3, 0f,
                     new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
 
-    //public static final RegistryObject<Item> SCRAP_METAL_SWORD = ITEMS.register("scrap_metal_sword",
-    //        () -> new SwordItem(ModTiers.TITANIUM, 3, -3f,
-    //                new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> SCRAP_METAL_SWORD = ITEMS.register("scrap_metal_sword",
+            () -> new PotionSwordItem(ModTiers.SCRAP_METAL, 3, -2.4f,
+                    new Item.Properties().tab(CreativeModeTab.TAB_COMBAT), MobEffects.POISON, 0,
+                    100, 0.3f));
 
 
 
