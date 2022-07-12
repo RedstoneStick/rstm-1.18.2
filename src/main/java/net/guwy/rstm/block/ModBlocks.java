@@ -9,6 +9,7 @@ import net.guwy.rstm.block.custom.PavementWallBlock;
 import net.guwy.rstm.item.ModItems;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TranslatableComponent;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.*;
@@ -250,6 +251,15 @@ public class ModBlocks {
 
 
 
+    // Plants
+    public static final RegistryObject<Block> LAVENDER = registerBlock("lavender", () -> new FlowerBlock(
+            MobEffects.ABSORPTION, 10, BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion()), ModCreativeModTabs.MATERIALS);
+
+    public static final RegistryObject<Block> LAVENDER_POTTED = registerBlockWithoutBlockItem("lavender_potted", () -> new FlowerPotBlock(
+            null, ModBlocks.LAVENDER, BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
+
+
+
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block,
@@ -281,6 +291,10 @@ public class ModBlocks {
                 pTooltip.add(new TranslatableComponent(tooltipKey));
             }
         });
+    }
+
+    private static <T extends Block> RegistryObject<T> registerBlockWithoutBlockItem(String name, Supplier<T> block){
+        return BLOCKS.register(name, block);
     }
 
 

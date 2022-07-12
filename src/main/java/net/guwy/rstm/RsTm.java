@@ -2,8 +2,9 @@ package net.guwy.rstm;
 
 import net.guwy.rstm.block.ModBlocks;
 import net.guwy.rstm.item.ModItems;
-import net.guwy.rstm.util.ModTransparency;
+import net.guwy.rstm.util.ModBlockTransparency;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -38,14 +39,13 @@ public class RsTm
     }
 
     private void clientSetup(final FMLClientSetupEvent event) {
-        ModTransparency.call();
+        ModBlockTransparency.call();
     }
 
-    private void setup(final FMLCommonSetupEvent event)
-    {
-        // some preinit code
-        LOGGER.info("HELLO FROM PREINIT");
-        LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
+    private void setup(final FMLCommonSetupEvent event) {
+        event.enqueueWork( () -> {
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(ModBlocks.LAVENDER.getId(), ModBlocks.LAVENDER_POTTED);
+        });
     }
 
 

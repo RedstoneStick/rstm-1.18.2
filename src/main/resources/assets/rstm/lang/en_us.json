@@ -150,6 +150,9 @@
   "block.rstm.pale_cream_door": "Pale Cream Door",
   "block.rstm.pale_cream_trapdoor": "Pale Cream Trapdoor",
 
+  "block.rstm.lavender": "Lavender",
+  "block.rstm.lavender_potted": "Potted Lavender",
+
   "itemGroup.rstm_tab_blocks": "RSTM Blocks",
   "itemGroup.rstm_tab_materials": "RSTM Materials",
   "itemGroup.rstm_tab_equipment": "RSTM Equipment and Consumables",
