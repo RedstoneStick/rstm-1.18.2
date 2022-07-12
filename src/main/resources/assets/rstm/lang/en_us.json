@@ -40,6 +40,14 @@
   "item.rstm.titanium_shovel": "Titanium Shovel",
   "item.rstm.titanium_hoe": "Titanium Hoe",
 
+  "item.rstm.scrap_metal_chestplate": "Scrap Metal Chestplate",
+  "item.rstm.scrap_metal_leggings": "Scrap Metal Leggings",
+  "item.rstm.scrap_metal_boots": "Scrap Metal Boots",
+  "item.rstm.titanium_helmet": "Titanium Helmet",
+  "item.rstm.titanium_chestplate": "Titanium Chestplate",
+  "item.rstm.titanium_leggings": "Titanium Leggings",
+  "item.rstm.titanium_boots": "Titanium Boots",
+
   "item.rstm.scrap_metal_sword": "Scrap Metal Sword",
 
   "item.rstm.igniter": "Igniter",
@@ -157,5 +165,7 @@
   "tooltip.rstm.crafting_material": "§7[Crafting Material]",
   "tooltip.rstm.potion_sword.a": "§7Effect:",
   "tooltip.rstm.potion_sword.b": "§7Duration:",
-  "tooltip.rstm.potion_sword.c": "§7Chance:"
+  "tooltip.rstm.potion_sword.c": "§7Chance:",
+  "tooltip.rstm.titanium_armor.a": "§7-15% Movement Speed per",
+  "tooltip.rstm.titanium_armor.b": "§72 pieces of armor equipped"
 }

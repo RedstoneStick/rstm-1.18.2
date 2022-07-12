@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "rstm:item/tools/scrap_metal_sword"
+    "layer0": "rstm:item/equipment/scrap_metal_sword"
   }
 }
