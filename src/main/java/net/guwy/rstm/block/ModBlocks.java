@@ -253,7 +253,7 @@ public class ModBlocks {
 
     // Plants
     public static final RegistryObject<Block> LAVENDER = registerBlock("lavender", () -> new FlowerBlock(
-            MobEffects.ABSORPTION, 10, BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion()), ModCreativeModTabs.MATERIALS);
+            MobEffects.ABSORPTION, 10, BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion()), CreativeModeTab.TAB_DECORATIONS);
 
     public static final RegistryObject<Block> LAVENDER_POTTED = registerBlockWithoutBlockItem("lavender_potted", () -> new FlowerPotBlock(
             null, ModBlocks.LAVENDER, BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
