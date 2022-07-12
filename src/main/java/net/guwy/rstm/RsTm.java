@@ -2,6 +2,7 @@ package net.guwy.rstm;
 
 import net.guwy.rstm.block.ModBlocks;
 import net.guwy.rstm.item.ModItems;
+import net.guwy.rstm.painting.ModPaintings;
 import net.guwy.rstm.util.ModBlockTransparency;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerPotBlock;
@@ -30,6 +31,7 @@ public class RsTm
 
         ModItems.register(eventBus);
         ModBlocks.register(eventBus);
+        ModPaintings.register(eventBus);
 
         eventBus.addListener(this::setup);
         eventBus.addListener(this::clientSetup);
