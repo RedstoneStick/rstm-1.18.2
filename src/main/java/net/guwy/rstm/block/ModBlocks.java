@@ -2,18 +2,19 @@ package net.guwy.rstm.block;
 
 import net.guwy.rstm.ModCreativeModTabs;
 import net.guwy.rstm.RsTm;
-import net.guwy.rstm.block.custom.PavementBlock;
-import net.guwy.rstm.block.custom.PavementSlabBlock;
-import net.guwy.rstm.block.custom.PavementStairsBlock;
-import net.guwy.rstm.block.custom.PavementWallBlock;
+import net.guwy.rstm.block.custom.*;
 import net.guwy.rstm.item.ModItems;
+import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.*;
+import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.MaterialColor;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -175,41 +176,214 @@ public class ModBlocks {
 
 
     // Woods
+    public static final RegistryObject<Block> PALE_CREAM_SAPLING = registerBlock("pale_cream_sapling", () -> new SaplingBlock(
+            , BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)), CreativeModeTab.TAB_DECORATIONS);
+
+    public static final RegistryObject<Block> PALE_CREAM_LEAVES = registerBlock("pale_cream_leaves", () ->
+            new LeavesBlock(BlockBehaviour.Properties.of(Material.LEAVES).strength(0.2f).
+                    explosionResistance(0.2f).sound(SoundType.AZALEA_LEAVES)) {
+        @Override
+        public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+            return true;
+        }
+
+        @Override
+        public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+            return 60;
+        }
+
+        @Override
+        public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+            return 30;
+        }
+    }, CreativeModeTab.TAB_DECORATIONS);
+
+    public static final RegistryObject<Block> PALE_CREAM_LOG = registerBlock("pale_cream_log", ()
+            -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2f).
+            explosionResistance(2f).sound(SoundType.WOOD)), ModCreativeModTabs.BLOCKS);
+
+    public static final RegistryObject<Block> PALE_CREAM_LOG_STRIPPED = registerBlock("pale_cream_log_stripped", ()
+            -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2f).
+            explosionResistance(2f).sound(SoundType.WOOD)), ModCreativeModTabs.BLOCKS);
+
+    public static final RegistryObject<Block> PALE_CREAM_WOOD = registerBlock("pale_cream_wood", ()
+            -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2f).
+            explosionResistance(2f).sound(SoundType.WOOD)), ModCreativeModTabs.BLOCKS);
+
+    public static final RegistryObject<Block> PALE_CREAM_WOOD_STRIPPED = registerBlock("pale_cream_wood_stripped", ()
+            -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2f).
+            explosionResistance(2f).sound(SoundType.WOOD)), ModCreativeModTabs.BLOCKS);
+
     public static final RegistryObject<Block> PALE_CREAM_PLANKS = registerBlock("pale_cream_planks", () -> new Block(BlockBehaviour.
-            Properties.of(Material.WOOD).strength(2f).explosionResistance(3f).
-            sound(SoundType.WOOD)), ModCreativeModTabs.BLOCKS);
+            Properties.of(Material.WOOD).strength(2f).explosionResistance(3f).sound(SoundType.WOOD))
+    {
+        @Override
+        public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+            return true;
+        }
+
+        @Override
+        public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+            return 20;
+        }
+
+        @Override
+        public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+            return 5;
+        }
+    }, ModCreativeModTabs.BLOCKS);
 
     public static final RegistryObject<Block> PALE_CREAM_SLAB = registerBlock("pale_cream_slab", () -> new SlabBlock(BlockBehaviour.
-            Properties.of(Material.WOOD).strength(2f).explosionResistance(3f).
-            sound(SoundType.WOOD)), ModCreativeModTabs.BLOCKS);
+            Properties.of(Material.WOOD).strength(2f).explosionResistance(3f).sound(SoundType.WOOD))
+    {
+        @Override
+        public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+            return true;
+        }
+
+        @Override
+        public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+            return 20;
+        }
+
+        @Override
+        public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+            return 5;
+        }
+    }, ModCreativeModTabs.BLOCKS);
 
     public static final RegistryObject<Block> PALE_CREAM_STAIRS = registerBlock("pale_cream_stairs", () -> new StairBlock(
             () -> ModBlocks.PALE_CREAM_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.WOOD).strength(2f).
-            explosionResistance(3f).sound(SoundType.WOOD)), ModCreativeModTabs.BLOCKS);
+            explosionResistance(3f).sound(SoundType.WOOD)){
+        @Override
+        public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+            return true;
+        }
+
+        @Override
+        public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+            return 20;
+        }
+
+        @Override
+        public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+            return 5;
+        }
+    }, ModCreativeModTabs.BLOCKS);
 
     public static final RegistryObject<Block> PALE_CREAM_FENCE = registerBlock("pale_cream_fence", () -> new FenceBlock(BlockBehaviour.
-            Properties.of(Material.WOOD).strength(2f).explosionResistance(3f).
-            sound(SoundType.WOOD)), ModCreativeModTabs.BLOCKS);
+            Properties.of(Material.WOOD).strength(2f).explosionResistance(3f).sound(SoundType.WOOD))
+    {
+        @Override
+        public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+            return true;
+        }
+
+        @Override
+        public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+            return 20;
+        }
+
+        @Override
+        public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+            return 5;
+        }
+    }, ModCreativeModTabs.BLOCKS);
 
     public static final RegistryObject<Block> PALE_CREAM_FENCE_GATE = registerBlock("pale_cream_fence_gate", () -> new FenceGateBlock(
-            BlockBehaviour.Properties.of(Material.WOOD).strength(2f).explosionResistance(3f)
-                    .sound(SoundType.WOOD)), ModCreativeModTabs.BLOCKS);
+            BlockBehaviour.Properties.of(Material.WOOD).strength(2f).explosionResistance(3f).sound(SoundType.WOOD))
+            {
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return true;
+                }
+
+                @Override
+                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 20;
+                }
+
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 5;
+                }
+            }, ModCreativeModTabs.BLOCKS);
 
     public static final RegistryObject<Block> PALE_CREAM_BUTTON = registerBlock("pale_cream_button", () -> new WoodButtonBlock(
             BlockBehaviour.Properties.of(Material.WOOD).strength(2f).explosionResistance(3f)
-                    .sound(SoundType.WOOD).noCollission()), ModCreativeModTabs.BLOCKS);
+                    .noCollission().sound(SoundType.WOOD)){
+        @Override
+        public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+            return true;
+        }
+
+        @Override
+        public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+            return 20;
+        }
+
+        @Override
+        public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+            return 5;
+        }
+    }, ModCreativeModTabs.BLOCKS);
 
     public static final RegistryObject<Block> PALE_CREAM_PRESSURE_PLATE = registerBlock("pale_cream_pressure_plate", () -> new
             PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.of(Material.WOOD).strength(2f).
-            explosionResistance(3f).sound(SoundType.WOOD)), ModCreativeModTabs.BLOCKS);
+            explosionResistance(3f).sound(SoundType.WOOD)){
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return true;
+                }
+
+                @Override
+                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 20;
+                }
+
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 5;
+                }
+            }, ModCreativeModTabs.BLOCKS);
 
     public static final RegistryObject<Block> PALE_CREAM_DOOR = registerBlock("pale_cream_door", () -> new DoorBlock(
             BlockBehaviour.Properties.of(Material.WOOD).strength(2f).explosionResistance(3f)
-                    .sound(SoundType.WOOD).noOcclusion()), ModCreativeModTabs.BLOCKS);
+                    .noOcclusion().sound(SoundType.WOOD)){
+        @Override
+        public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+            return true;
+        }
+
+        @Override
+        public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+            return 20;
+        }
+
+        @Override
+        public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+            return 5;
+        }
+    }, ModCreativeModTabs.BLOCKS);
 
     public static final RegistryObject<Block> PALE_CREAM_TRAPDOOR = registerBlock("pale_cream_trapdoor", () -> new TrapDoorBlock(
             BlockBehaviour.Properties.of(Material.WOOD).strength(2f).explosionResistance(3f)
-                    .sound(SoundType.WOOD).noOcclusion()), ModCreativeModTabs.BLOCKS);
+                    .noOcclusion().sound(SoundType.WOOD)){
+        @Override
+        public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+            return true;
+        }
+
+        @Override
+        public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+            return 20;
+        }
+
+        @Override
+        public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+            return 5;
+        }
+    }, ModCreativeModTabs.BLOCKS);
 
 
 

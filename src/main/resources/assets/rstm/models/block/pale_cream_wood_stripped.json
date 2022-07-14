@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "rstm:block/wood/pale_cream/pale_cream_log_stripped",
+    "side": "rstm:block/wood/pale_cream/pale_cream_log_stripped"
+  }
+}

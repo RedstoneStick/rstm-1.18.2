@@ -2,12 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "rstm:pale_cream_planks"
+      "tag": "rstm:pale_cream_logs"
     }
   ],
 
   "result": {
-    "item": "rstm:pale_cream_button",
-    "count": 1
+    "item": "rstm:pale_cream_planks",
+    "count": 4
   }
 }

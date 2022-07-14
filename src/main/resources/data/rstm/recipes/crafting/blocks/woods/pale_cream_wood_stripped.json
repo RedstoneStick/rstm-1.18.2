@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xx",
+    "xx"
+  ],
+  "key": {
+    "x": {
+      "item": "rstm:pale_cream_log_stripped"
+    }
+  },
+  "result": {
+    "item": "rstm:pale_cream_wood_stripped",
+    "count": 3
+  }
+}
