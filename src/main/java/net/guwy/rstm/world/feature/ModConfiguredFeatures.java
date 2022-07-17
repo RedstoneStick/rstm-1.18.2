@@ -75,6 +75,13 @@ public class ModConfiguredFeatures {
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> NITER_ORE = FeatureUtils.register("niter_ore",
             Feature.ORE, new OreConfiguration(OVERWORLD_NITER_ORES, 5));
 
+    public static final List<OreConfiguration.TargetBlockState> OVERWORLD_PALLADIUM_ORES = List.of(
+            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.PALLADIUM_ORE.get().defaultBlockState()),
+            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.PALLADIUM_ORE_DEEPSLATE.get().defaultBlockState()));
+
+    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> PALLADIUM_ORE = FeatureUtils.register("palladium_ore",
+            Feature.ORE, new OreConfiguration(OVERWORLD_PALLADIUM_ORES, 3));
+
 }
     /**
     public static final List<OreConfiguration.TargetBlockState> OVERWORLD_CITRINE_ORES = List.of(
