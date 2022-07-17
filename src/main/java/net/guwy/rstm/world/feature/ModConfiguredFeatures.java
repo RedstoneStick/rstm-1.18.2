@@ -3,6 +3,7 @@ package net.guwy.rstm.world.feature;
 import net.guwy.rstm.block.ModBlocks;
 import net.minecraft.core.Holder;
 import net.minecraft.data.worldgen.features.FeatureUtils;
+import net.minecraft.data.worldgen.features.OreFeatures;
 import net.minecraft.data.worldgen.features.TreeFeatures;
 import net.minecraft.data.worldgen.placement.PlacementUtils;
 import net.minecraft.data.worldgen.placement.TreePlacements;
@@ -11,10 +12,7 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.feature.WeightedPlacedFeature;
-import net.minecraft.world.level.levelgen.feature.configurations.RandomFeatureConfiguration;
-import net.minecraft.world.level.levelgen.feature.configurations.RandomPatchConfiguration;
-import net.minecraft.world.level.levelgen.feature.configurations.SimpleBlockConfiguration;
-import net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration;
+import net.minecraft.world.level.levelgen.feature.configurations.*;
 import net.minecraft.world.level.levelgen.feature.featuresize.TwoLayersFeatureSize;
 import net.minecraft.world.level.levelgen.feature.foliageplacers.BlobFoliagePlacer;
 import net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider;
@@ -24,6 +22,7 @@ import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 import java.util.List;
 
 public class ModConfiguredFeatures {
+    // Trees
     public static final Holder<ConfiguredFeature<TreeConfiguration, ?>> PALE_CREAM_TREE =
             FeatureUtils.register("ebony", Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
                     BlockStateProvider.simple(ModBlocks.PALE_CREAM_LOG.get()),
@@ -43,10 +42,25 @@ public class ModConfiguredFeatures {
                             PALE_CREAM_TREE_CHECKED, 0.01F)),
                             PALE_CREAM_TREE_CHECKED));
 
+
+
+    // Flowers
     public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> FLOWER_LAVENDER =
             FeatureUtils.register("flower_lavender", Feature.FLOWER,
                     new RandomPatchConfiguration(16, 6, 2, PlacementUtils.onlyWhenEmpty(
                             Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(
                                     ModBlocks.LAVENDER.get())))));
+
+
+
+    // Ores
+    public static final List<OreConfiguration.TargetBlockState> OVERWORLD_FLUORITE_ORES = List.of(
+            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.FLUORITE_ORE.get().defaultBlockState()),
+            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.FLUORITE_ORE_DEEPSLATE.get().defaultBlockState()));
+
+    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> FLUORITE_ORE = FeatureUtils.register("fluorite_ore",
+            Feature.ORE, new OreConfiguration(OVERWORLD_FLUORITE_ORES, 5));
+
+
 
 }
