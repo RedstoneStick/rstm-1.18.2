@@ -27,4 +27,14 @@ public class ModPlacedFeatures {
     public static final Holder<PlacedFeature> MAGNESIUM_ORE_PLACED = PlacementUtils.register("magnesium_ore_placed",
             ModConfiguredFeatures.MAGNESIUM_ORE, ModOrePlacement.commonOrePlacement(7, // VeinsPerChunk
                     HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-20), VerticalAnchor.aboveBottom(60))));
+
+    public static final Holder<PlacedFeature> NITER_ORE_PLACED = PlacementUtils.register("niter_ore_placed",
+            ModConfiguredFeatures.NITER_ORE, ModOrePlacement.commonOrePlacement(12, // VeinsPerChunk
+                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-10), VerticalAnchor.aboveBottom(50))));
 }
+
+/**
+  public static final Holder<PlacedFeature> CITRINE_ORE_PLACED = PlacementUtils.register("ebony_ore_placed",
+              ModConfiguredFeatures.CITRINE_ORE, ModOrePlacement.commonOrePlacement(7, // VeinsPerChunk
+                      HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-20), VerticalAnchor.aboveBottom(60))));
+ **/

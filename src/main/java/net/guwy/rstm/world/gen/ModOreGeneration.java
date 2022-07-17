@@ -15,5 +15,6 @@ public class ModOreGeneration {
 
         base.add(ModPlacedFeatures.FLUORITE_ORE_PLACED);
         base.add(ModPlacedFeatures.MAGNESIUM_ORE_PLACED);
+        base.add(ModPlacedFeatures.NITER_ORE_PLACED);
     }
 }

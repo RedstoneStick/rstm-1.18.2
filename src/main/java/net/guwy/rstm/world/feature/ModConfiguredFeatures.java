@@ -24,7 +24,7 @@ import java.util.List;
 public class ModConfiguredFeatures {
     // Trees
     public static final Holder<ConfiguredFeature<TreeConfiguration, ?>> PALE_CREAM_TREE =
-            FeatureUtils.register("ebony", Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+            FeatureUtils.register("pale_cream_tree", Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
                     BlockStateProvider.simple(ModBlocks.PALE_CREAM_LOG.get()),
                     new StraightTrunkPlacer(4, 2, 3),
                     BlockStateProvider.simple(ModBlocks.PALE_CREAM_LEAVES.get()),
@@ -68,4 +68,19 @@ public class ModConfiguredFeatures {
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> MAGNESIUM_ORE = FeatureUtils.register("magnesium_ore",
             Feature.ORE, new OreConfiguration(OVERWORLD_MAGNESIUM_ORES, 9));
 
+    public static final List<OreConfiguration.TargetBlockState> OVERWORLD_NITER_ORES = List.of(
+            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.NITER_ORE.get().defaultBlockState()),
+            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.NITER_ORE_DEEPSLATE.get().defaultBlockState()));
+
+    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> NITER_ORE = FeatureUtils.register("niter_ore",
+            Feature.ORE, new OreConfiguration(OVERWORLD_NITER_ORES, 5));
+
 }
+    /**
+    public static final List<OreConfiguration.TargetBlockState> OVERWORLD_CITRINE_ORES = List.of(
+            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.CITRINE_ORE.get().defaultBlockState()),
+            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.CITRINE_ORE_DEEPSLATE.get().defaultBlockState()));
+
+    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> CITRINE_ORE = FeatureUtils.register("ebony_ore",
+            Feature.ORE, new OreConfiguration(OVERWORLD_CITRINE_ORES, 9));
+     **/
