@@ -18,5 +18,6 @@ public class ModOreGeneration {
         base.add(ModPlacedFeatures.NITER_ORE_PLACED);
         base.add(ModPlacedFeatures.PALLADIUM_ORE_PLACED);
         base.add(ModPlacedFeatures.PLATINUM_ORE_PLACED);
+        base.add(ModPlacedFeatures.THORIUM_ORE_PLACED);
     }
 }

@@ -89,6 +89,13 @@ public class ModConfiguredFeatures {
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> PLATINUM_ORE = FeatureUtils.register("platinum_ore",
             Feature.ORE, new OreConfiguration(OVERWORLD_PLATINUM_ORES, 5));
 
+    public static final List<OreConfiguration.TargetBlockState> OVERWORLD_THORIUM_ORES = List.of(
+            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.THORIUM_ORE.get().defaultBlockState()),
+            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.THORIUM_ORE_DEEPSLATE.get().defaultBlockState()));
+
+    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> THORIUM_ORE = FeatureUtils.register("thorium_ore",
+            Feature.ORE, new OreConfiguration(OVERWORLD_THORIUM_ORES, 12));
+
 }
     /**
     public static final List<OreConfiguration.TargetBlockState> OVERWORLD_CITRINE_ORES = List.of(
