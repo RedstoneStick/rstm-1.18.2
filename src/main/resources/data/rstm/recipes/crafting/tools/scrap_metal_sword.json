@@ -3,7 +3,7 @@
   "pattern": [
     "x",
     "x",
-    "y  "
+    "y"
   ],
   "key": {
     "x": {
@@ -14,7 +14,7 @@
 	}
   },
   "result": {
-    "item": "rstm:boomstick",
+    "item": "rstm:scrap_metal_sword",
     "count": 1
   }
 }
