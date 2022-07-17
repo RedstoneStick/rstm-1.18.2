@@ -4,11 +4,17 @@ import net.guwy.rstm.ModCreativeModTabs;
 import net.guwy.rstm.RsTm;
 import net.guwy.rstm.block.custom.*;
 import net.guwy.rstm.item.ModItems;
+import net.guwy.rstm.world.feature.tree.PaleCreamTreeGrower;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TranslatableComponent;
+import net.minecraft.tags.BlockTags;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.world.InteractionResult;
 import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.entity.item.ItemEntity;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.Level;
@@ -17,11 +23,14 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.MaterialColor;
+import net.minecraft.world.phys.BlockHitResult;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
+import org.lwjgl.system.CallbackI;
 
 import java.util.List;
 import java.util.function.Supplier;
@@ -177,11 +186,17 @@ public class ModBlocks {
 
     // Woods
     public static final RegistryObject<Block> PALE_CREAM_SAPLING = registerBlock("pale_cream_sapling", () -> new SaplingBlock(
-            , BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)), CreativeModeTab.TAB_DECORATIONS);
+            new PaleCreamTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)) {
+        @Override
+        protected boolean mayPlaceOn(BlockState pState, BlockGetter pLevel, BlockPos pPos) {
+            return pState.is(BlockTags.SAND);
+        }
+    },
+            CreativeModeTab.TAB_DECORATIONS);
 
     public static final RegistryObject<Block> PALE_CREAM_LEAVES = registerBlock("pale_cream_leaves", () ->
             new LeavesBlock(BlockBehaviour.Properties.of(Material.LEAVES).strength(0.2f).
-                    explosionResistance(0.2f).sound(SoundType.AZALEA_LEAVES)) {
+                    explosionResistance(0.2f).sound(SoundType.AZALEA_LEAVES).noOcclusion()) {
         @Override
         public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
             return true;
@@ -196,7 +211,8 @@ public class ModBlocks {
         public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
             return 30;
         }
-    }, CreativeModeTab.TAB_DECORATIONS);
+        },
+            CreativeModeTab.TAB_DECORATIONS);
 
     public static final RegistryObject<Block> PALE_CREAM_LOG = registerBlock("pale_cream_log", ()
             -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2f).
@@ -427,10 +443,27 @@ public class ModBlocks {
 
     // Plants
     public static final RegistryObject<Block> LAVENDER = registerBlock("lavender", () -> new FlowerBlock(
-            MobEffects.ABSORPTION, 10, BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion()), CreativeModeTab.TAB_DECORATIONS);
+            MobEffects.ABSORPTION, 10, BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion()){
+                @Override
+                public InteractionResult use(BlockState pState, Level pLevel, BlockPos pPos, Player pPlayer,
+                                             InteractionHand pHand, BlockHitResult pHit) {
+                    if(pPlayer.getItemInHand(pHand).getItem() == Items.BONE_MEAL){
+                        if(!pPlayer.isCreative()) {
+                            pPlayer.getItemInHand(pHand).shrink(1);
+                        }
+                        pLevel.addFreshEntity(new ItemEntity(pLevel, pPos.getX() + 0.5f,
+                                pPos.getY() + 0.5f, pPos.getZ() + 0.5f,
+                                new ItemStack(ModBlocks.LAVENDER.get())));
 
-    public static final RegistryObject<Block> LAVENDER_POTTED = registerBlockWithoutBlockItem("lavender_potted", () -> new FlowerPotBlock(
-            null, ModBlocks.LAVENDER, BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
+                        BoneMealItem.addGrowthParticles(pLevel, pPos, 15);
+                    }
+                    return InteractionResult.SUCCESS;
+                }
+            },
+            CreativeModeTab.TAB_DECORATIONS);
+
+    public static final RegistryObject<Block> LAVENDER_POTTED = registerBlockWithoutBlockItem("lavender_potted", ()
+            -> new FlowerPotBlock(null, ModBlocks.LAVENDER, BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
 
 
 

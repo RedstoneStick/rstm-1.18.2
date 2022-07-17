@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "rstm:block/wood/pale_cream/pale_cream_sapling"
+  }
+}

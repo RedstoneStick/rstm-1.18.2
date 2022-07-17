@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "rstm:block/wood/pale_cream/pale_cream_leaves"
+  }
+}

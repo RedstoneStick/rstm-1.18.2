@@ -8,6 +8,8 @@ public class ModBlockTransparency {
     public static void call(){
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.PALE_CREAM_DOOR.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.PALE_CREAM_TRAPDOOR.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PALE_CREAM_SAPLING.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PALE_CREAM_LEAVES.get(), RenderType.cutout());
 
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.MODULAR_FRAME.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.MODULAR_FRAME_HEAVY.get(), RenderType.cutout());
