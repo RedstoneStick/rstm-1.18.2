@@ -23,4 +23,8 @@ public class ModPlacedFeatures {
     public static final Holder<PlacedFeature> FLUORITE_ORE_PLACED = PlacementUtils.register("fluorite_ore_placed",
             ModConfiguredFeatures.FLUORITE_ORE, ModOrePlacement.commonOrePlacement(7, // VeinsPerChunk
                     HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-70), VerticalAnchor.aboveBottom(40))));
+
+    public static final Holder<PlacedFeature> MAGNESIUM_ORE_PLACED = PlacementUtils.register("magnesium_ore_placed",
+            ModConfiguredFeatures.MAGNESIUM_ORE, ModOrePlacement.commonOrePlacement(7, // VeinsPerChunk
+                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-20), VerticalAnchor.aboveBottom(60))));
 }

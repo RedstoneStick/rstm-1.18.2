@@ -61,6 +61,11 @@ public class ModConfiguredFeatures {
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> FLUORITE_ORE = FeatureUtils.register("fluorite_ore",
             Feature.ORE, new OreConfiguration(OVERWORLD_FLUORITE_ORES, 5));
 
+    public static final List<OreConfiguration.TargetBlockState> OVERWORLD_MAGNESIUM_ORES = List.of(
+            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.MAGNESIUM_ORE.get().defaultBlockState()),
+            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.MAGNESIUM_ORE_DEEPSLATE.get().defaultBlockState()));
 
+    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> MAGNESIUM_ORE = FeatureUtils.register("magnesium_ore",
+            Feature.ORE, new OreConfiguration(OVERWORLD_MAGNESIUM_ORES, 9));
 
 }
