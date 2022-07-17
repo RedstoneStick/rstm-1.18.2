@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "y y",
+    "x x"
+  ],
+  "key": {
+    "x": {
+      "item": "rstm:scrap_metal"
+    },
+	"y": {
+		"item": "minecraft:leather"
+	}
+  },
+  "result": {
+    "item": "rstm:scrap_metal_boots",
+    "count": 1
+  }
+}

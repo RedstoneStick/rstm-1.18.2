@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xx",
+    " y",
+    " y  "
+  ],
+  "key": {
+    "x": {
+      "item": "rstm:titanium_ingot"
+    },
+	"y": {
+		"item": "minecraft:stick"
+	}
+  },
+  "result": {
+    "item": "rstm:titanium_hoe",
+    "count": 1
+  }
+}

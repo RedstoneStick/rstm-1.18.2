@@ -21,34 +21,34 @@ public class ModPlacedFeatures {
             PlacementUtils.HEIGHTMAP, BiomeFilter.biome());
 
     public static final Holder<PlacedFeature> FLUORITE_ORE_PLACED = PlacementUtils.register("fluorite_ore_placed",
-            ModConfiguredFeatures.FLUORITE_ORE, ModOrePlacement.commonOrePlacement(7, // VeinsPerChunk
-                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-70), VerticalAnchor.aboveBottom(40))));
+            ModConfiguredFeatures.FLUORITE_ORE, ModOrePlacement.commonOrePlacement(10, // VeinsPerChunk
+                    HeightRangePlacement.triangle(VerticalAnchor.absolute(-70), VerticalAnchor.absolute(40))));
 
     public static final Holder<PlacedFeature> MAGNESIUM_ORE_PLACED = PlacementUtils.register("magnesium_ore_placed",
             ModConfiguredFeatures.MAGNESIUM_ORE, ModOrePlacement.commonOrePlacement(12, // VeinsPerChunk
-                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-20), VerticalAnchor.aboveBottom(60))));
+                    HeightRangePlacement.triangle(VerticalAnchor.absolute(-20), VerticalAnchor.absolute(60))));
 
     public static final Holder<PlacedFeature> NITER_ORE_PLACED = PlacementUtils.register("niter_ore_placed",
-            ModConfiguredFeatures.NITER_ORE, ModOrePlacement.commonOrePlacement(9, // VeinsPerChunk
-                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-10), VerticalAnchor.aboveBottom(50))));
+            ModConfiguredFeatures.NITER_ORE, ModOrePlacement.commonOrePlacement(18, // VeinsPerChunk
+                    HeightRangePlacement.triangle(VerticalAnchor.absolute(-10), VerticalAnchor.absolute(50))));
 
     public static final Holder<PlacedFeature> PALLADIUM_ORE_PLACED = PlacementUtils.register("palladium_ore_placed",
-            ModConfiguredFeatures.PALLADIUM_ORE, ModOrePlacement.commonOrePlacement(3, // VeinsPerChunk
-                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-100), VerticalAnchor.aboveBottom(-20))));
+            ModConfiguredFeatures.PALLADIUM_ORE, ModOrePlacement.commonOrePlacement(5, // VeinsPerChunk
+                    HeightRangePlacement.triangle(VerticalAnchor.absolute(-100), VerticalAnchor.absolute(-20))));
 
     public static final Holder<PlacedFeature> PLATINUM_ORE_PLACED = PlacementUtils.register("platinum_ore_placed",
             ModConfiguredFeatures.PLATINUM_ORE, ModOrePlacement.commonOrePlacement(5, // VeinsPerChunk
-                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-100), VerticalAnchor.aboveBottom(-20))));
+                    HeightRangePlacement.triangle(VerticalAnchor.absolute(-100), VerticalAnchor.absolute(-20))));
 
     public static final Holder<PlacedFeature> THORIUM_ORE_PLACED = PlacementUtils.register("thorium_ore_placed",
             ModConfiguredFeatures.THORIUM_ORE, ModOrePlacement.commonOrePlacement(10, // VeinsPerChunk
-                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-20), VerticalAnchor.aboveBottom(40))));
+                    HeightRangePlacement.triangle(VerticalAnchor.absolute(-20), VerticalAnchor.absolute(40))));
 
     public static final Holder<PlacedFeature> TITANIUM_ORE_PLACED = PlacementUtils.register("titanium_ore_placed",
             ModConfiguredFeatures.TITANIUM_ORE, ModOrePlacement.commonOrePlacement(15, // VeinsPerChunk
-                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-66), VerticalAnchor.aboveBottom(24))));
+                    HeightRangePlacement.triangle(VerticalAnchor.absolute(-66), VerticalAnchor.absolute(24))));
 
     public static final Holder<PlacedFeature> URANIUM_ORE_PLACED = PlacementUtils.register("uranium_ore_placed",
-            ModConfiguredFeatures.URANIUM_ORE, ModOrePlacement.commonOrePlacement(6, // VeinsPerChunk
-                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-150), VerticalAnchor.aboveBottom(22))));
+            ModConfiguredFeatures.URANIUM_ORE, ModOrePlacement.commonOrePlacement(9, // VeinsPerChunk
+                    HeightRangePlacement.triangle(VerticalAnchor.absolute(-150), VerticalAnchor.absolute(22))));
 }

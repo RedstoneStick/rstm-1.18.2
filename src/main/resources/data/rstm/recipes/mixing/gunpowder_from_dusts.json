@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/saltpeter",
+      "count": 15
+    },
+    {
+      "item": "minecraft:charcoal",
+      "count": 3
+    },
+    {
+      "tag": "forge:dusts/sulfur",
+      "count": 2
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:gunpowder",
+      "count": 20
+    }
+  ]
+}

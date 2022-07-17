@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "x x",
+    "x x"
+  ],
+  "key": {
+    "x": {
+      "item": "rstm:titanium_ingot"
+    }
+  },
+  "result": {
+    "item": "rstm:titanium_boots",
+    "count": 1
+  }
+}

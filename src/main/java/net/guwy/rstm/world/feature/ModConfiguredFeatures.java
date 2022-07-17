@@ -94,7 +94,7 @@ public class ModConfiguredFeatures {
             OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.THORIUM_ORE_DEEPSLATE.get().defaultBlockState()));
 
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> THORIUM_ORE = FeatureUtils.register("thorium_ore",
-            Feature.ORE, new OreConfiguration(OVERWORLD_THORIUM_ORES, 12));
+            Feature.ORE, new OreConfiguration(OVERWORLD_THORIUM_ORES, 9));
 
     public static final List<OreConfiguration.TargetBlockState> OVERWORLD_TITANIUM_ORES = List.of(
             OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.TITANIUM_ORE.get().defaultBlockState()),
