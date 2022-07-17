@@ -102,12 +102,11 @@ public class ModConfiguredFeatures {
 
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> TITANIUM_ORE = FeatureUtils.register("titanium_ore",
             Feature.ORE, new OreConfiguration(OVERWORLD_TITANIUM_ORES, 9));
-}
-    /**
-    public static final List<OreConfiguration.TargetBlockState> OVERWORLD_CITRINE_ORES = List.of(
-            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.CITRINE_ORE.get().defaultBlockState()),
-            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.CITRINE_ORE_DEEPSLATE.get().defaultBlockState()));
 
-    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> CITRINE_ORE = FeatureUtils.register("ebony_ore",
-            Feature.ORE, new OreConfiguration(OVERWORLD_CITRINE_ORES, 9));
-     **/
+    public static final List<OreConfiguration.TargetBlockState> OVERWORLD_URANIUM_ORES = List.of(
+            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.URANIUM_ORE.get().defaultBlockState()),
+            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.URANIUM_ORE_DEEPSLATE.get().defaultBlockState()));
+
+    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> URANIUM_ORE = FeatureUtils.register("uranium_ore",
+            Feature.ORE, new OreConfiguration(OVERWORLD_URANIUM_ORES, 6));
+}

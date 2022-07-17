@@ -41,16 +41,14 @@ public class ModPlacedFeatures {
                     HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-100), VerticalAnchor.aboveBottom(-20))));
 
     public static final Holder<PlacedFeature> THORIUM_ORE_PLACED = PlacementUtils.register("thorium_ore_placed",
-            ModConfiguredFeatures.THORIUM_ORE, ModOrePlacement.commonOrePlacement(8, // VeinsPerChunk
+            ModConfiguredFeatures.THORIUM_ORE, ModOrePlacement.commonOrePlacement(10, // VeinsPerChunk
                     HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-20), VerticalAnchor.aboveBottom(40))));
 
     public static final Holder<PlacedFeature> TITANIUM_ORE_PLACED = PlacementUtils.register("titanium_ore_placed",
             ModConfiguredFeatures.TITANIUM_ORE, ModOrePlacement.commonOrePlacement(15, // VeinsPerChunk
                     HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-66), VerticalAnchor.aboveBottom(24))));
-}
 
-/**
-  public static final Holder<PlacedFeature> CITRINE_ORE_PLACED = PlacementUtils.register("ebony_ore_placed",
-              ModConfiguredFeatures.CITRINE_ORE, ModOrePlacement.commonOrePlacement(7, // VeinsPerChunk
-                      HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-20), VerticalAnchor.aboveBottom(60))));
- **/
+    public static final Holder<PlacedFeature> URANIUM_ORE_PLACED = PlacementUtils.register("uranium_ore_placed",
+            ModConfiguredFeatures.URANIUM_ORE, ModOrePlacement.commonOrePlacement(6, // VeinsPerChunk
+                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-150), VerticalAnchor.aboveBottom(22))));
+}
