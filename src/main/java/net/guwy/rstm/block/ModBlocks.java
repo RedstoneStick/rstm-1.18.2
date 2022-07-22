@@ -144,6 +144,18 @@ public class ModBlocks {
             Properties.of(Material.STONE).strength(4.5f).explosionResistance(3f).requiresCorrectToolForDrops().
             sound(SoundType.DEEPSLATE)), ModCreativeModTabs.BLOCKS);
 
+    public static final RegistryObject<Block> BAUXITE_SOIL_SCARCE = registerBlock("bauxite_soil_scarce", () -> new Block(BlockBehaviour.
+            Properties.of(Material.CLAY).strength(2f).explosionResistance(0.6f).
+            sound(SoundType.GRAVEL)), ModCreativeModTabs.BLOCKS);
+
+    public static final RegistryObject<Block> BAUXITE_SOIL_NORMAL = registerBlock("bauxite_soil_normal", () -> new Block(BlockBehaviour.
+            Properties.of(Material.CLAY).strength(2f).explosionResistance(0.6f).
+            sound(SoundType.GRAVEL)), ModCreativeModTabs.BLOCKS);
+
+    public static final RegistryObject<Block> BAUXITE_SOIL_RICH = registerBlock("bauxite_soil_rich", () -> new Block(BlockBehaviour.
+            Properties.of(Material.CLAY).strength(2f).explosionResistance(0.6f).
+            sound(SoundType.GRAVEL)), ModCreativeModTabs.BLOCKS);
+
 
 
     // Building Blocks

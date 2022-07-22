@@ -130,6 +130,9 @@
   "block.rstm.titanium_ore_deepslate": "Deepslate Titanium Ore",
   "block.rstm.uranium_ore": "Uranium Ore",
   "block.rstm.uranium_ore_deepslate": "Deepslate Uranium Ore",
+  "block.rstm.bauxite_soil_scarce": "Scarce Bauxite",
+  "block.rstm.bauxite_soil_normal": "Bauxite",
+  "block.rstm.bauxite_soil_rich": "Rich Bauxite",
 
   "block.rstm.pavement": "Pavement",
   "block.rstm.pavement_slab": "Pavement Slab",
