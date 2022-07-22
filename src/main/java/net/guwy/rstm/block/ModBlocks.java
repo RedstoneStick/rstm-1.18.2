@@ -24,6 +24,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.MaterialColor;
 import net.minecraft.world.phys.BlockHitResult;
+import net.minecraftforge.common.PlantType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -185,14 +186,9 @@ public class ModBlocks {
 
 
     // Woods
-    public static final RegistryObject<Block> PALE_CREAM_SAPLING = registerBlock("pale_cream_sapling", () -> new SaplingBlock(
-            new PaleCreamTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)) {
-        @Override
-        protected boolean mayPlaceOn(BlockState pState, BlockGetter pLevel, BlockPos pPos) {
-            return pState.is(BlockTags.SAND);
-        }
-    },
-            CreativeModeTab.TAB_DECORATIONS);
+    public static final RegistryObject<Block> PALE_CREAM_SAPLING = registerBlock("pale_cream_sapling", () -> new ModSaplingBlock(
+            new PaleCreamTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING),
+            () -> Blocks.SAND, () -> PlantType.DESERT), CreativeModeTab.TAB_DECORATIONS);
 
     public static final RegistryObject<Block> PALE_CREAM_LEAVES = registerBlock("pale_cream_leaves", () ->
             new LeavesBlock(BlockBehaviour.Properties.of(Material.LEAVES).strength(0.2f).
