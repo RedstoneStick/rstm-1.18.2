@@ -11,7 +11,8 @@ import net.minecraftforge.common.Tags;
 
 public class ModTags {
     public static class Blocks {
-        public static final TagKey<Block> RANDOM_TAG = tag("randomly_tagged_blocks");
+        public static final TagKey<Block> NATURAL_SOIL = tag("natural_soil");
+        public static final TagKey<Block> NATURAL_FOLIAGE = tag("natural_foliage");
 
         private static TagKey<Block> tag(String name){
             return BlockTags.create(new ResourceLocation(RsTm.MOD_ID, name));
