@@ -1,0 +1,30 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "rstm:steel_ingot"
+  },
+  "transitionalItem": {
+    "item": "rstm:steel_ingot"
+  },
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "rstm:steel_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "rstm:steel_ingot"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "rstm:sheet_steel"
+    }
+  ],
+  "loops": 2
+}

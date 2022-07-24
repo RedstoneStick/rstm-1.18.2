@@ -232,40 +232,40 @@ public class ModItems {
                     tab(ModCreativeModTabs.MATERIALS), "tooltip.rstm.crafting_material"));
 
     public static final RegistryObject<Item> CIRCUIT_BASIC_INCOMPLETE = ITEMS.register(
-            "circuit_basic_incomplete", () -> new TooltipItem(new Item.Properties().
-                    tab(ModCreativeModTabs.MATERIALS), "tooltip.rstm.crafting_material"));
+            "circuit_basic_incomplete", () -> new TooltipItem(new Item.Properties()
+                    , "tooltip.rstm.crafting_material"));
 
     public static final RegistryObject<Item> CIRCUIT_ENHANCED = ITEMS.register(
             "circuit_enhanced", () -> new TooltipItem(new Item.Properties().
                     tab(ModCreativeModTabs.MATERIALS), "tooltip.rstm.crafting_material"));
 
     public static final RegistryObject<Item> CIRCUIT_ENHANCED_INCOMPLETE = ITEMS.register(
-            "circuit_enhanced_incomplete", () -> new TooltipItem(new Item.Properties().
-                    tab(ModCreativeModTabs.MATERIALS), "tooltip.rstm.crafting_material"));
+            "circuit_enhanced_incomplete", () -> new TooltipItem(new Item.Properties()
+                    , "tooltip.rstm.crafting_material"));
 
     public static final RegistryObject<Item> CIRCUIT_ADVANCED = ITEMS.register(
             "circuit_advanced", () -> new TooltipItem(new Item.Properties().
                     tab(ModCreativeModTabs.MATERIALS), "tooltip.rstm.crafting_material"));
 
     public static final RegistryObject<Item> CIRCUIT_ADVANCED_INCOMPLETE = ITEMS.register(
-            "circuit_advanced_incomplete", () -> new TooltipItem(new Item.Properties().
-                    tab(ModCreativeModTabs.MATERIALS), "tooltip.rstm.crafting_material"));
+            "circuit_advanced_incomplete", () -> new TooltipItem(new Item.Properties()
+                    , "tooltip.rstm.crafting_material"));
 
     public static final RegistryObject<Item> CIRCUIT_INDUSTRIAL_GRADE = ITEMS.register(
             "circuit_industrial_grade", () -> new TooltipItem(new Item.Properties().
                     tab(ModCreativeModTabs.MATERIALS), "tooltip.rstm.crafting_material"));
 
     public static final RegistryObject<Item> CIRCUIT_INDUSTRIAL_GRADE_INCOMPLETE = ITEMS.register(
-            "circuit_industrial_grade_incomplete", () -> new TooltipItem(new Item.Properties().
-                    tab(ModCreativeModTabs.MATERIALS), "tooltip.rstm.crafting_material"));
+            "circuit_industrial_grade_incomplete", () -> new TooltipItem(new Item.Properties()
+                    , "tooltip.rstm.crafting_material"));
 
     public static final RegistryObject<Item> CIRCUIT_OVERCLOCKED = ITEMS.register(
             "circuit_overclocked", () -> new TooltipItem(new Item.Properties().
                     tab(ModCreativeModTabs.MATERIALS), "tooltip.rstm.crafting_material"));
 
     public static final RegistryObject<Item> CIRCUIT_OVERCLOCKED_INCOMPLETE = ITEMS.register(
-            "circuit_overclocked_incomplete", () -> new TooltipItem(new Item.Properties().
-                    tab(ModCreativeModTabs.MATERIALS), "tooltip.rstm.crafting_material"));
+            "circuit_overclocked_incomplete", () -> new TooltipItem(new Item.Properties()
+                    , "tooltip.rstm.crafting_material"));
 
     public static final RegistryObject<Item> CIRCUIT_RELIABLE = ITEMS.register(
             "circuit_reliable", () -> new TooltipItem(new Item.Properties().
@@ -276,24 +276,24 @@ public class ModItems {
                     tab(ModCreativeModTabs.MATERIALS), "tooltip.rstm.crafting_material"));
 
     public static final RegistryObject<Item> CIRCUIT_RELIABLE_INCOMPLETE = ITEMS.register(
-            "circuit_reliable_incomplete", () -> new TooltipItem(new Item.Properties().
-                    tab(ModCreativeModTabs.MATERIALS), "tooltip.rstm.crafting_material"));
+            "circuit_reliable_incomplete", () -> new TooltipItem(new Item.Properties()
+                    , "tooltip.rstm.crafting_material"));
 
     public static final RegistryObject<Item> CIRCUIT_AVIONICS = ITEMS.register(
             "circuit_avionics", () -> new TooltipItem(new Item.Properties().
                     tab(ModCreativeModTabs.MATERIALS), "tooltip.rstm.crafting_material"));
 
     public static final RegistryObject<Item> CIRCUIT_AVIONICS_INCOMPLETE = ITEMS.register(
-            "circuit_avionics_incomplete", () -> new TooltipItem(new Item.Properties().
-                    tab(ModCreativeModTabs.MATERIALS), "tooltip.rstm.crafting_material"));
+            "circuit_avionics_incomplete", () -> new TooltipItem(new Item.Properties()
+                    , "tooltip.rstm.crafting_material"));
 
     public static final RegistryObject<Item> CIRCUIT_CAPACITIVE = ITEMS.register(
             "circuit_capacitive", () -> new TooltipItem(new Item.Properties().
                     tab(ModCreativeModTabs.MATERIALS), "tooltip.rstm.crafting_material"));
 
     public static final RegistryObject<Item> CIRCUIT_CAPACITIVE_INCOMPLETE = ITEMS.register(
-            "circuit_capacitive_incomplete", () -> new TooltipItem(new Item.Properties().
-                    tab(ModCreativeModTabs.MATERIALS), "tooltip.rstm.crafting_material"));
+            "circuit_capacitive_incomplete", () -> new TooltipItem(new Item.Properties()
+                    , "tooltip.rstm.crafting_material"));
 
 
 
@@ -351,21 +351,41 @@ public class ModItems {
             "foil_copper", () -> new TooltipItem(new Item.Properties().
                     tab(ModCreativeModTabs.MATERIALS), "tooltip.rstm.crafting_material"));
 
+    public static final RegistryObject<Item> FOIL_COPPER_INCOMPLETE = ITEMS.register(
+            "foil_copper_incomplete", () -> new TooltipItem(new Item.Properties()
+                    , "tooltip.rstm.crafting_material"));
+
     public static final RegistryObject<Item> FOIL_IRON = ITEMS.register(
             "foil_iron", () -> new TooltipItem(new Item.Properties().
                     tab(ModCreativeModTabs.MATERIALS), "tooltip.rstm.crafting_material"));
+
+    public static final RegistryObject<Item> FOIL_IRON_INCOMPLETE = ITEMS.register(
+            "foil_iron_incomplete", () -> new TooltipItem(new Item.Properties()
+                    , "tooltip.rstm.crafting_material"));
 
     public static final RegistryObject<Item> FOIL_STEEL = ITEMS.register(
             "foil_steel", () -> new TooltipItem(new Item.Properties().
                     tab(ModCreativeModTabs.MATERIALS), "tooltip.rstm.crafting_material"));
 
+    public static final RegistryObject<Item> FOIL_STEEL_INCOMPLETE = ITEMS.register(
+            "foil_steel_incomplete", () -> new TooltipItem(new Item.Properties()
+                    , "tooltip.rstm.crafting_material"));
+
     public static final RegistryObject<Item> FOIL_TITANIUM = ITEMS.register(
             "foil_titanium", () -> new TooltipItem(new Item.Properties().
                     tab(ModCreativeModTabs.MATERIALS), "tooltip.rstm.crafting_material"));
 
+    public static final RegistryObject<Item> FOIL_TITANIUM_INCOMPLETE = ITEMS.register(
+            "foil_titanium_incomplete", () -> new TooltipItem(new Item.Properties()
+                    , "tooltip.rstm.crafting_material"));
+
     public static final RegistryObject<Item> FOIL_ALUMINUM = ITEMS.register(
             "foil_aluminum", () -> new TooltipItem(new Item.Properties().
                     tab(ModCreativeModTabs.MATERIALS), "tooltip.rstm.crafting_material"));
+
+    public static final RegistryObject<Item> FOIL_ALUMINUM_INCOMPLETE = ITEMS.register(
+            "foil_aluminum_incomplete", () -> new TooltipItem(new Item.Properties()
+                    , "tooltip.rstm.crafting_material"));
 
 
 

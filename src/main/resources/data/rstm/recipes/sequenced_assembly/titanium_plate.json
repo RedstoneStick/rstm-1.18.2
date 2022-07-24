@@ -1,0 +1,30 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "rstm:titanium_ingot"
+  },
+  "transitionalItem": {
+    "item": "rstm:titanium_ingot"
+  },
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "rstm:titanium_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "rstm:titanium_ingot"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "rstm:sheet_titanium"
+    }
+  ],
+  "loops": 5
+}

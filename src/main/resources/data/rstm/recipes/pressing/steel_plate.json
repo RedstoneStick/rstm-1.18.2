@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "rstm:steel_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "rstm:sheet_steel"
+    }
+  ]
+}

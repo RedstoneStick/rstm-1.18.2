@@ -1,0 +1,62 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/steel"
+  },
+  "transitionalItem": {
+    "item": "rstm:foil_steel_incomplete"
+  },
+  "sequence": [
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "rstm:foil_steel_incomplete"
+        }
+      ],
+      "results": [
+        {
+          "item": "rstm:foil_steel_incomplete"
+        }
+      ],
+      "processingTime": 200
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "rstm:foil_steel_incomplete"
+        }
+      ],
+      "results": [
+        {
+          "item": "rstm:foil_steel_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "rstm:foil_steel_incomplete"
+        },
+        [
+          {
+            "item": "minecraft:stick"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "rstm:foil_steel_incomplete"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "rstm:foil_steel"
+    }
+  ],
+  "loops": 1
+}

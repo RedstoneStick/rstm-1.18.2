@@ -1,0 +1,62 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/aluminum"
+  },
+  "transitionalItem": {
+    "item": "rstm:foil_aluminum_incomplete"
+  },
+  "sequence": [
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "rstm:foil_aluminum_incomplete"
+        }
+      ],
+      "results": [
+        {
+          "item": "rstm:foil_aluminum_incomplete"
+        }
+      ],
+      "processingTime": 200
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "rstm:foil_aluminum_incomplete"
+        }
+      ],
+      "results": [
+        {
+          "item": "rstm:foil_aluminum_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "rstm:foil_aluminum_incomplete"
+        },
+        [
+          {
+            "item": "minecraft:stick"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "rstm:foil_aluminum_incomplete"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "rstm:foil_aluminum"
+    }
+  ],
+  "loops": 1
+}

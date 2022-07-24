@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "rstm:aluminum_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "rstm:aluminum_steel"
+    }
+  ]
+}

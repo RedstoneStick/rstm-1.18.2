@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "rstm:titanium_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "rstm:sheet_titanium"
+    }
+  ]
+}
