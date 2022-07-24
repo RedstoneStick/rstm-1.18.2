@@ -306,6 +306,10 @@ public class ModItems {
             "sheet_titanium", () -> new TooltipItem(new Item.Properties().
                     tab(ModCreativeModTabs.MATERIALS), "tooltip.rstm.crafting_material"));
 
+    public static final RegistryObject<Item> SHEET_ALUMINUM = ITEMS.register(
+            "sheet_aluminum", () -> new TooltipItem(new Item.Properties().
+                    tab(ModCreativeModTabs.MATERIALS), "tooltip.rstm.crafting_material"));
+
 
 
     // Wires
@@ -321,6 +325,10 @@ public class ModItems {
             "wire_steel", () -> new TooltipItem(new Item.Properties().
                     tab(ModCreativeModTabs.MATERIALS), "tooltip.rstm.crafting_material"));
 
+    public static final RegistryObject<Item> WIRE_ALUMINUM = ITEMS.register(
+            "wire_aluminum", () -> new TooltipItem(new Item.Properties().
+                    tab(ModCreativeModTabs.MATERIALS), "tooltip.rstm.crafting_material"));
+
 
 
     // Coils
@@ -330,6 +338,10 @@ public class ModItems {
 
     public static final RegistryObject<Item> COIL_GOLD = ITEMS.register(
             "coil_gold", () -> new TooltipItem(new Item.Properties().
+                    tab(ModCreativeModTabs.MATERIALS), "tooltip.rstm.crafting_material"));
+
+    public static final RegistryObject<Item> COIL_ALUMINUM = ITEMS.register(
+            "coil_aluminum", () -> new TooltipItem(new Item.Properties().
                     tab(ModCreativeModTabs.MATERIALS), "tooltip.rstm.crafting_material"));
 
 
@@ -349,6 +361,10 @@ public class ModItems {
 
     public static final RegistryObject<Item> FOIL_TITANIUM = ITEMS.register(
             "foil_titanium", () -> new TooltipItem(new Item.Properties().
+                    tab(ModCreativeModTabs.MATERIALS), "tooltip.rstm.crafting_material"));
+
+    public static final RegistryObject<Item> FOIL_ALUMINUM = ITEMS.register(
+            "foil_aluminum", () -> new TooltipItem(new Item.Properties().
                     tab(ModCreativeModTabs.MATERIALS), "tooltip.rstm.crafting_material"));
 
 

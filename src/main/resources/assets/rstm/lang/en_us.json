@@ -81,18 +81,22 @@
 
   "item.rstm.sheet_steel": "Steel Sheet",
   "item.rstm.sheet_titanium": "Titanium Sheet",
+  "item.rstm.sheet_aluminum": "Aluminum Sheet",
 
   "item.rstm.wire_copper": "Copper Wire",
   "item.rstm.wire_gold": "Gold Wire",
   "item.rstm.wire_steel": "Steel Wire",
+  "item.rstm.wire_aluminum": "Aluminum Wire",
 
   "item.rstm.coil_copper": "Copper Coil",
   "item.rstm.coil_gold": "Gold Coil",
+  "item.rstm.coil_aluminum": "Aluminum Coil",
 
   "item.rstm.foil_copper": "Copper Foil",
   "item.rstm.foil_iron": "Iron Foil",
   "item.rstm.foil_steel": "Steel Foil",
   "item.rstm.foil_titanium": "Titanium Foil",
+  "item.rstm.foil_aluminum": "Aluminum Foil",
 
   "item.rstm.motor": "Motor",
 
