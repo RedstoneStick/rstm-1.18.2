@@ -107,6 +107,9 @@ public class ModItems {
     public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
             () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
 
+    public static final RegistryObject<Item> ALUMINUM_INGOT = ITEMS.register("aluminum_ingot",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
+
 
 
     // Nuggets
@@ -126,6 +129,9 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
 
     public static final RegistryObject<Item> URANIUM_NUGGET = ITEMS.register("uranium_nugget",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
+
+    public static final RegistryObject<Item> ALUMINUM_NUGGET = ITEMS.register("aluminum_nugget",
             () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
 
 
@@ -155,6 +161,9 @@ public class ModItems {
     public static final RegistryObject<Item> URANIUM_DUST = ITEMS.register("uranium_dust",
             () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
 
+    public static final RegistryObject<Item> ALUMINUM_DUST = ITEMS.register("aluminum_dust",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
+
 
 
     // Crushed
@@ -174,6 +183,9 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
 
     public static final RegistryObject<Item> URANIUM_CRUSHED = ITEMS.register("uranium_crushed",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
+
+    public static final RegistryObject<Item> ALUMINUM_CRUSHED = ITEMS.register("aluminum_crushed",
             () -> new Item(new Item.Properties().tab(ModCreativeModTabs.MATERIALS)));
 
 
