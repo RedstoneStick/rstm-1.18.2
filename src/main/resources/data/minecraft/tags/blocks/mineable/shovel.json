@@ -7,6 +7,9 @@
     "rstm:black_sand_platinum_ore",
     "rstm:black_sand_thorium_ore",
     "rstm:black_sand_titanium_ore",
-    "rstm:black_sand_uranium_ore"
+    "rstm:black_sand_uranium_ore",
+    "rstm:bauxite_soil_rich",
+    "rstm:bauxite_soil_normal",
+    "rstm:bauxite_soil_scarce"
   ]
 }
