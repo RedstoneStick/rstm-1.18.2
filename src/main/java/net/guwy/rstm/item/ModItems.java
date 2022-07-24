@@ -4,6 +4,8 @@ import net.guwy.rstm.ModCreativeModTabs;
 import net.guwy.rstm.RsTm;
 import net.guwy.rstm.item.custom.*;
 import net.guwy.rstm.item.misc.ModArmorMaterials;
+import net.guwy.rstm.item.misc.ModFoods;
+import net.guwy.rstm.item.misc.ModToolTiers;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;

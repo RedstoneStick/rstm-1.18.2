@@ -1,5 +1,6 @@
-package net.guwy.rstm.item;
+package net.guwy.rstm.item.misc;
 
+import net.guwy.rstm.item.ModItems;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraftforge.common.ForgeTier;

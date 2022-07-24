@@ -1,4 +1,4 @@
-package net.guwy.rstm.item;
+package net.guwy.rstm.item.misc;
 
 import net.minecraft.world.food.FoodProperties;
 
