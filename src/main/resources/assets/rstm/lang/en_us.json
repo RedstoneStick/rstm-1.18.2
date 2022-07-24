@@ -93,10 +93,15 @@
   "item.rstm.coil_aluminum": "Aluminum Coil",
 
   "item.rstm.foil_copper": "Copper Foil",
+  "item.rstm.foil_copper_incomplete": "Incomplete Copper Foil",
   "item.rstm.foil_iron": "Iron Foil",
+  "item.rstm.foil_iron_incomplete": "Incomplete Iron Foil",
   "item.rstm.foil_steel": "Steel Foil",
+  "item.rstm.foil_steel_incomplete": "Incomplete Steel Foil",
   "item.rstm.foil_titanium": "Titanium Foil",
+  "item.rstm.foil_titanium_incomplete": "Incomplete Titanium Foil",
   "item.rstm.foil_aluminum": "Aluminum Foil",
+  "item.rstm.foil_aluminum_incomplete": "Incomplete Aluminum Foil",
 
   "item.rstm.motor": "Motor",
 
