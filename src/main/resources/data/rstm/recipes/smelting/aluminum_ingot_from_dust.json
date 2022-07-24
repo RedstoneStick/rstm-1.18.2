@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "rstm:aluminum_dust"
+  },
+  "result": "rstm:aluminum_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}
