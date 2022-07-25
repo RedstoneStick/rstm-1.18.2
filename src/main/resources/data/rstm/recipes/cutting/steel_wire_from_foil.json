@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "tag": "forge:foils/steel"
+    }
+  ],
+  "results": [
+    {
+      "item": "rstm:wire_steel",
+      "count": 8
+    }
+  ],
+  "processingTime": 200
+}

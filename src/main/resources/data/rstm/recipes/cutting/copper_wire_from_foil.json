@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "tag": "forge:foils/copper"
+    }
+  ],
+  "results": [
+    {
+      "item": "rstm:wire_copper",
+      "count": 8
+    }
+  ],
+  "processingTime": 200
+}

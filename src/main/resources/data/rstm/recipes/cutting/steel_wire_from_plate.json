@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "tag": "forge:plates/steel"
+    }
+  ],
+  "results": [
+    {
+      "item": "rstm:wire_steel",
+      "count": 4
+    }
+  ],
+  "processingTime": 200
+}
