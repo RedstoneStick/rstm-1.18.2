@@ -1,15 +1,20 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:shears"
-    },
-    {
-      "tag": "forge:plates/aluminum"
-    }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xyx",
+    "xxx"
   ],
+  "key": {
+    "x": {
+      "tag": "forge:plates/aluminum"
+    },
+    "y": {
+      "item": "minecraft:shears"
+    }
+  },
   "result": {
     "item": "rstm:wire_aluminum",
-    "count": 4
+    "count": 32
   }
 }

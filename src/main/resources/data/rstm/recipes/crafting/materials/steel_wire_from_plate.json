@@ -1,15 +1,20 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:shears"
-    },
-    {
-      "tag": "forge:plates/steel"
-    }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xyx",
+    "xxx"
   ],
+  "key": {
+    "x": {
+      "tag": "forge:plates/steel"
+    },
+    "y": {
+      "item": "minecraft:shears"
+    }
+  },
   "result": {
     "item": "rstm:wire_steel",
-    "count": 4
+    "count": 32
   }
 }
