@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:brick"
+    }
+  },
+  "result": {
+    "item": "rstm:panel_insulator",
+    "count": 4
+  }
+}

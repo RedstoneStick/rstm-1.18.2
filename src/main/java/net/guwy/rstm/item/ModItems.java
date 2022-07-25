@@ -424,6 +424,9 @@ public class ModItems {
     public static final RegistryObject<Item> NOODLES_CHICKEN_XL = ITEMS.register("noodles_chicken_xl",
             () -> new Item(new Item.Properties().tab(ModCreativeModTabs.EQUIPMENT).food(ModFoods.NOODLES_CHICKEN_XL)));
 
+    public static final RegistryObject<Item> NOODLES_CHICKEN_XL_RAW = ITEMS.register("noodles_chicken_xl_raw",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTabs.EQUIPMENT).food(ModFoods.NOODLES_CHICKEN_XL_RAW)));
+
     public static final RegistryObject<Item> NOODLES_CURRY = ITEMS.register("noodles_curry",
             () -> new Item(new Item.Properties().tab(ModCreativeModTabs.EQUIPMENT).food(ModFoods.NOODLES_CURRY)));
 
