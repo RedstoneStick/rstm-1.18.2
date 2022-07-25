@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xyx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "tag": "forge:wires/aluminum"
+    },
+    "y": {
+      "item": "rstm:coil_empty"
+    }
+  },
+  "result": {
+    "item": "rstm:coil_aluminum",
+    "count": 1
+  }
+}

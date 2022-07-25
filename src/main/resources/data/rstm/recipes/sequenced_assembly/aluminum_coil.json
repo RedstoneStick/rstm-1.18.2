@@ -1,0 +1,35 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "minecraft:planks"
+  },
+  "transitionalItem": {
+    "item": "rstm:coil_empty"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "rstm:coil_empty"
+        },
+        [
+          {
+            "tag": "forge:wires/aluminum"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "rstm:coil_empty"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "rstm:coil_aluminum"
+    }
+  ],
+  "loops": 8
+}

@@ -332,6 +332,10 @@ public class ModItems {
 
 
     // Coils
+    public static final RegistryObject<Item> COIL_EMPTY = ITEMS.register(
+            "coil_empty", () -> new TooltipItem(new Item.Properties().
+                    tab(ModCreativeModTabs.MATERIALS), "tooltip.rstm.crafting_material"));
+
     public static final RegistryObject<Item> COIL_COPPER = ITEMS.register(
             "coil_copper", () -> new TooltipItem(new Item.Properties().
                     tab(ModCreativeModTabs.MATERIALS), "tooltip.rstm.crafting_material"));

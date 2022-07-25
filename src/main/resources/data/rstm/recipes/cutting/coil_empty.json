@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "tag": "minecraft:planks"
+    }
+  ],
+  "results": [
+    {
+      "item": "rstm:coil_empty",
+      "count": 1
+    }
+  ],
+  "processingTime": 200
+}
