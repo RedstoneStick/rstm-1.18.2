@@ -1,0 +1,94 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/steel"
+  },
+  "transitionalItem": {
+    "item": "rstm:circuit_basic_incomplete"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "rstm:circuit_basic_incomplete"
+        },
+        [
+          {
+            "item": "minecraft:redstone"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "rstm:circuit_basic_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "rstm:circuit_basic_incomplete"
+        },
+        [
+          {
+            "tag": "forge:wires/aluminum"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "rstm:circuit_basic_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "rstm:circuit_basic_incomplete"
+        }
+      ],
+      "results": [
+        {
+          "item": "rstm:circuit_basic_incomplete"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "rstm:circuit_basic",
+      "chance": 120.0
+    },
+    {
+      "item": "rstm:sheet_steel",
+      "chance": 8.0
+    },
+    {
+      "item": "rstm:wire_aluminum",
+      "chance": 8.0
+    },
+    {
+      "item": "minecraft:redstone",
+      "chance": 5.0
+    },
+    {
+      "item": "rstm:scrap_metal",
+      "chance": 2.0
+    },
+    {
+      "item": "rstm:aluminum_crushed",
+      "chance": 2.0
+    },
+    {
+      "item": "minecraft:aluminum_nugget",
+      "chance": 2.0
+    },
+    {
+      "item": "rstm:steel_ingot"
+    }
+  ],
+  "loops": 1
+}

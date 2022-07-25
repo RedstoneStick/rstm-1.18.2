@@ -1,0 +1,94 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "rstm:panel_insulator"
+  },
+  "transitionalItem": {
+    "item": "rstm:circuit_enhanced_incomplete"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "rstm:circuit_enhanced_incomplete"
+        },
+        [
+          {
+            "item": "minecraft:quartz"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "rstm:circuit_enhanced_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "rstm:circuit_enhanced_incomplete"
+        },
+        [
+          {
+            "tag": "forge:wires/copper"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "rstm:circuit_enhanced_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "rstm:circuit_enhanced_incomplete"
+        }
+      ],
+      "results": [
+        {
+          "item": "rstm:circuit_enhanced_incomplete"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "rstm:circuit_enhanced",
+      "chance": 120.0
+    },
+    {
+      "item": "rstm:panel_insulator",
+      "chance": 8.0
+    },
+    {
+      "item": "rstm:wire_copper",
+      "chance": 8.0
+    },
+    {
+      "item": "minecraft:quartz",
+      "chance": 5.0
+    },
+    {
+      "item": "rstm:scrap_metal",
+      "chance": 2.0
+    },
+    {
+      "item": "minecraft:string",
+      "chance": 2.0
+    },
+    {
+      "item": "create:copper_nugget",
+      "chance": 2.0
+    },
+    {
+      "item": "minecraft:brick"
+    }
+  ],
+  "loops": 1
+}

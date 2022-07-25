@@ -1,0 +1,94 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/titanium"
+  },
+  "transitionalItem": {
+    "item": "rstm:circuit_advanced_incomplete"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "rstm:circuit_advanced_incomplete"
+        },
+        [
+          {
+            "item": "rstm:panel_insulator"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "rstm:circuit_advanced_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "rstm:circuit_advanced_incomplete"
+        },
+        [
+          {
+            "tag": "forge:wires/gold"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "rstm:circuit_advanced_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "rstm:circuit_advanced_incomplete"
+        }
+      ],
+      "results": [
+        {
+          "item": "rstm:circuit_advanced_incomplete"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "rstm:circuit_advanced",
+      "chance": 120.0
+    },
+    {
+      "item": "rstm:sheet_titanium",
+      "chance": 8.0
+    },
+    {
+      "item": "rstm:wire_gold",
+      "chance": 8.0
+    },
+    {
+      "item": "rstm:panel_insulator",
+      "chance": 5.0
+    },
+    {
+      "item": "rstm:scrap_metal",
+      "chance": 2.0
+    },
+    {
+      "item": "create:crushed_gold_ore",
+      "chance": 2.0
+    },
+    {
+      "item": "minecraft:gold_nugget",
+      "chance": 2.0
+    },
+    {
+      "item": "rstm:titanium_ingot"
+    }
+  ],
+  "loops": 1
+}

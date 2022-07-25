@@ -1,0 +1,19 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "rstm:aluminum_crushed"
+    }
+  ],
+  "results": [
+    {
+      "item": "rstm:aluminum_nugget",
+      "count": 9
+    },
+    {
+      "item": "minecraft:clay_ball",
+      "count": 1,
+      "chance": 0.6
+    }
+  ]
+}
