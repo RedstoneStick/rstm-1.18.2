@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "rstm:noodles_chicken_xl_raw"
+  },
+  "result": "rstm:noodles_chicken_xl",
+  "experience": 1.0,
+  "cookingtime": 200
+}
