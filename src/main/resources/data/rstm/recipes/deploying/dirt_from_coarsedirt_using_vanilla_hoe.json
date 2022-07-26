@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "minecraft:coarse_dirt"
+    },
+    {
+      "item": "minecraft:iron_hoe"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:dirt"
+    }
+  ]
+}

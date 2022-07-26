@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "minecraft:coarse_dirt"
+    },
+    {
+      "tag": "forge:tools/hoes"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:dirt"
+    }
+  ]
+}
