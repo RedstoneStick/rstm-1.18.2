@@ -1,0 +1,28 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "rstm:bauxite_soil_scarce"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:clay_ball",
+      "count": 2
+    },
+    {
+      "item": "rstm:aluminum_crushed",
+      "count": 1
+    },
+    {
+      "item": "minecraft:clay_ball",
+      "count": 2,
+      "chance": 0.5
+    },
+    {
+      "item": "rstm:aluminum_crushed",
+      "count": 1,
+      "chance": 0.25
+    }
+  ]
+}
