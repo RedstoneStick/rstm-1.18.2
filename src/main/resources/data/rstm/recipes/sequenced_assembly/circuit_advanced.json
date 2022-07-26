@@ -87,7 +87,8 @@
       "chance": 2.0
     },
     {
-      "item": "rstm:titanium_ingot"
+      "item": "rstm:titanium_ingot",
+      "chance": 2.0
     }
   ],
   "loops": 1

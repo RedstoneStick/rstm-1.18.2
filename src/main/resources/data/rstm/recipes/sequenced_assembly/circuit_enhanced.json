@@ -87,7 +87,8 @@
       "chance": 2.0
     },
     {
-      "item": "minecraft:brick"
+      "item": "minecraft:brick",
+      "chance": 2.0
     }
   ],
   "loops": 1

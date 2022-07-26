@@ -87,7 +87,8 @@
       "chance": 2.0
     },
     {
-      "item": "rstm:steel_ingot"
+      "item": "rstm:steel_ingot",
+      "chance": 2.0
     }
   ],
   "loops": 1
