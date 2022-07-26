@@ -25,27 +25,27 @@ public class ModItems {
 
     public static final RegistryObject<Item> TITANIUM_SWORD = ITEMS.register("titanium_sword",
             () -> new SwordItem(ModToolTiers.TITANIUM, 3, -3f,
-                    new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+                    new Item.Properties().tab(ModCreativeModTabs.EQUIPMENT)));
 
     public static final RegistryObject<Item> TITANIUM_AXE = ITEMS.register("titanium_axe",
             () -> new AxeItem(ModToolTiers.TITANIUM, 5, -3.5f,
-                    new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+                    new Item.Properties().tab(ModCreativeModTabs.EQUIPMENT)));
 
     public static final RegistryObject<Item> TITANIUM_PICKAXE = ITEMS.register("titanium_pickaxe",
             () -> new PickaxeItem(ModToolTiers.TITANIUM, 1, -2.8f,
-                    new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+                    new Item.Properties().tab(ModCreativeModTabs.EQUIPMENT)));
 
     public static final RegistryObject<Item> TITANIUM_SHOVEL = ITEMS.register("titanium_shovel",
             () -> new ShovelItem(ModToolTiers.TITANIUM, 1, -3f,
-                    new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+                    new Item.Properties().tab(ModCreativeModTabs.EQUIPMENT)));
 
     public static final RegistryObject<Item> TITANIUM_HOE = ITEMS.register("titanium_hoe",
             () -> new HoeItem(ModToolTiers.TITANIUM, -3, 0f,
-                    new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+                    new Item.Properties().tab(ModCreativeModTabs.EQUIPMENT)));
 
     public static final RegistryObject<Item> SCRAP_METAL_SWORD = ITEMS.register("scrap_metal_sword",
             () -> new PotionSwordItem(ModToolTiers.SCRAP_METAL, 3, -2.4f,
-                    new Item.Properties().tab(CreativeModeTab.TAB_COMBAT), MobEffects.POISON, 0,
+                    new Item.Properties().tab(ModCreativeModTabs.EQUIPMENT), MobEffects.POISON, 0,
                     100, 0.3f));
 
 
@@ -53,37 +53,37 @@ public class ModItems {
     // Armors
     public static final RegistryObject<Item> SCRAP_METAL_CHESTPLATE = ITEMS.register(
             "scrap_metal_chestplate", () -> new ArmorItem(ModArmorMaterials.SCRAP_METAL,
-                    EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)
+                    EquipmentSlot.CHEST, new Item.Properties().tab(ModCreativeModTabs.EQUIPMENT)
                     .durability(120)));
 
     public static final RegistryObject<Item> SCRAP_METAL_LEGGINGS = ITEMS.register(
             "scrap_metal_leggings", () -> new ArmorItem(ModArmorMaterials.SCRAP_METAL,
-                    EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)
+                    EquipmentSlot.LEGS, new Item.Properties().tab(ModCreativeModTabs.EQUIPMENT)
                     .durability(120)));
 
     public static final RegistryObject<Item> SCRAP_METAL_BOOTS = ITEMS.register(
             "scrap_metal_boots", () -> new ArmorItem(ModArmorMaterials.SCRAP_METAL,
-                    EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)
+                    EquipmentSlot.FEET, new Item.Properties().tab(ModCreativeModTabs.EQUIPMENT)
                     .durability(120)));
 
     public static final RegistryObject<Item> TITANIUM_HELMET = ITEMS.register(
             "titanium_helmet", () -> new TitaniumArmorItem(ModArmorMaterials.TITANIUM,
-                    EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)
+                    EquipmentSlot.HEAD, new Item.Properties().tab(ModCreativeModTabs.EQUIPMENT)
                     .durability(570)));
 
     public static final RegistryObject<Item> TITANIUM_CHESTPLATE = ITEMS.register(
             "titanium_chestplate", () -> new TitaniumArmorItem(ModArmorMaterials.TITANIUM,
-                    EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)
+                    EquipmentSlot.CHEST, new Item.Properties().tab(ModCreativeModTabs.EQUIPMENT)
                     .durability(570)));
 
     public static final RegistryObject<Item> TITANIUM_LEGGINGS = ITEMS.register(
             "titanium_leggings", () -> new TitaniumArmorItem(ModArmorMaterials.TITANIUM,
-                    EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)
+                    EquipmentSlot.LEGS, new Item.Properties().tab(ModCreativeModTabs.EQUIPMENT)
                     .durability(570)));
 
     public static final RegistryObject<Item> TITANIUM_BOOTS = ITEMS.register(
             "titanium_boots", () -> new TitaniumArmorItem(ModArmorMaterials.TITANIUM,
-                    EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)
+                    EquipmentSlot.FEET, new Item.Properties().tab(ModCreativeModTabs.EQUIPMENT)
                     .durability(570)));
 
 

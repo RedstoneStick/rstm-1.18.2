@@ -200,7 +200,7 @@ public class ModBlocks {
     // Woods
     public static final RegistryObject<Block> PALE_CREAM_SAPLING = registerBlock("pale_cream_sapling", () -> new ModSaplingBlock(
             new PaleCreamTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING),
-            () -> Blocks.SAND, () -> PlantType.DESERT), CreativeModeTab.TAB_DECORATIONS);
+            () -> Blocks.SAND, () -> PlantType.DESERT), ModCreativeModTabs.BLOCKS);
 
     public static final RegistryObject<Block> PALE_CREAM_LEAVES = registerBlock("pale_cream_leaves", () ->
             new LeavesBlock(BlockBehaviour.Properties.of(Material.LEAVES).strength(0.2f).
@@ -220,7 +220,7 @@ public class ModBlocks {
             return 30;
         }
         },
-            CreativeModeTab.TAB_DECORATIONS);
+            ModCreativeModTabs.BLOCKS);
 
     public static final RegistryObject<Block> PALE_CREAM_LOG = registerBlock("pale_cream_log", ()
             -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2f).
@@ -468,7 +468,7 @@ public class ModBlocks {
                     return InteractionResult.SUCCESS;
                 }
             },
-            CreativeModeTab.TAB_DECORATIONS);
+            ModCreativeModTabs.BLOCKS);
 
     public static final RegistryObject<Block> LAVENDER_POTTED = registerBlockWithoutBlockItem("lavender_potted", ()
             -> new FlowerPotBlock(null, ModBlocks.LAVENDER, BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
