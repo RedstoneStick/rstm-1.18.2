@@ -1,0 +1,141 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "rstm:circuit_advanced"
+  },
+  "transitionalItem": {
+    "item": "rstm:circuit_avionics_incomplete"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "rstm:circuit_avionics_incomplete"
+        },
+        [
+          {
+            "item": "create:electron_tube"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "rstm:circuit_avionics_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "rstm:circuit_avionics_incomplete"
+        },
+        [
+          {
+            "item": "rstm:circuit_basic"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "rstm:circuit_avionics_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "rstm:circuit_avionics_incomplete"
+        },
+        [
+          {
+            "item": "minecraft:redstone"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "rstm:circuit_avionics_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "rstm:circuit_avionics_incomplete"
+        },
+        [
+          {
+            "item": "minecraft:amethyst_shard"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "rstm:circuit_avionics_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "rstm:circuit_avionics_incomplete"
+        },
+        [
+          {
+            "item": "rstm:panel_insulator"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "rstm:circuit_avionics_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "rstm:circuit_avionics_incomplete"
+        }
+      ],
+      "results": [
+        {
+          "item": "rstm:circuit_avionics_incomplete"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "rstm:circuit_avionics",
+      "chance": 120.0
+    },
+    {
+      "item": "rstm:circuit_basic",
+      "chance": 8.0
+    },
+    {
+      "item": "minecraft:amethyst_shard",
+      "chance": 8.0
+    },
+    {
+      "item": "rstm:panel_insulator",
+      "chance": 8.0
+    },
+    {
+      "item": "rstm:wire_copper",
+      "chance": 2.0
+    },
+    {
+      "item": "create:electron_tube",
+      "chance": 4.0
+    }
+  ],
+  "loops": 1
+}

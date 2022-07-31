@@ -1,0 +1,28 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "L",
+    "R",
+    "S",
+    "R",
+    "H"
+  ],
+  "key": {
+    "L": {
+      "item": "rstm:panel_glass_reinforced"
+    },
+    "R": {
+      "item": "rstm:panel_insulator"
+    },
+    "H": {
+      "tag": "forge:plates/steel"
+    },
+    "S": {
+      "item": "rstm:circuit_advanced"
+    }
+  },
+  "result": {
+    "item": "rstm:circuit_reliable_assembly"
+  },
+  "acceptMirrored": false
+}

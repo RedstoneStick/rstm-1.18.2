@@ -1,0 +1,105 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "rstm:circuit_enhanced"
+  },
+  "transitionalItem": {
+    "item": "rstm:circuit_industrial_grade_incomplete"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "rstm:circuit_industrial_grade_incomplete"
+        },
+        [
+          {
+            "item": "minecraft:redstone"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "rstm:circuit_industrial_grade_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "rstm:circuit_industrial_grade_incomplete"
+        },
+        [
+          {
+            "item": "rstm:panel_insulator"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "rstm:circuit_industrial_grade_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "rstm:circuit_industrial_grade_incomplete"
+        },
+        [
+          {
+            "tag": "forge:wires/copper"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "rstm:circuit_industrial_grade_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "rstm:circuit_industrial_grade_incomplete"
+        }
+      ],
+      "results": [
+        {
+          "item": "rstm:circuit_industrial_grade_incomplete"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "rstm:circuit_industrial_grade",
+      "chance": 120.0
+    },
+    {
+      "item": "rstm:circuit_enhanced",
+      "chance": 8.0
+    },
+    {
+      "item": "rstm:wire_copper",
+      "chance": 8.0
+    },
+    {
+      "item": "rstm:panel_insulator",
+      "chance": 8.0
+    },
+    {
+      "item": "rstm:scrap_metal",
+      "chance": 2.0
+    },
+    {
+      "item": "minecraft:redstone",
+      "chance": 4.0
+    }
+  ],
+  "loops": 1
+}
