@@ -215,7 +215,7 @@ dependencies {
 
     implementation fg.deobf("curse.maven:the-one-probe-245211:3671753")
 
-    implementation fg.deobf("curse.maven:create-328085:3871091")
+    implementation fg.deobf("curse.maven:create-328085:3872145")
     implementation fg.deobf("curse.maven:flywheel-486392:3871082")
 
     annotationProcessor "org.spongepowered:mixin:${mixin_version}:processor"
