@@ -475,6 +475,8 @@ public class ModBlocks {
 
 
 
+    // Machines
+
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block,

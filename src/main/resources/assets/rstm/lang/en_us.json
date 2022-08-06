@@ -180,6 +180,7 @@
   "itemGroup.rstm_tab_blocks": "RSTM Blocks",
   "itemGroup.rstm_tab_materials": "RSTM Materials",
   "itemGroup.rstm_tab_equipment": "RSTM Equipment and Consumables",
+  "itemGroup.rstm_tab_machines": "RSTM Machines",
 
   "tooltip.rstm.scrap_metal": "§7May be useful down the line",
   "tooltip.rstm.ash": "§7I hate ash -Stick 2022",
