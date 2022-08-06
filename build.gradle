@@ -46,6 +46,11 @@ minecraft {
         client {
             workingDirectory project.file('run')
 
+            arg '-mixin.config=create.mixins.json'
+            arg '-mixin.config=flywheel.mixins.json'
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+
             // Recommended logging data for a userdev environment
             // The markers can be added/remove as needed separated by commas.
             // "SCAN": For mods scan.
@@ -165,10 +170,23 @@ repositories {
         name = "Progwml6 maven"
         url = "https://dvs1.progwml6.com/files/maven/"
     }
+    /*
     maven {
         // location of a maven mirror for JEI files, as a fallback
         name = "ModMaven"
         url = "https://modmaven.dev"
+    }
+    */
+    maven {
+        // Location of the maven for mixed mappings, Registrate, and Flywheel
+        name 'tterrag maven'
+        url 'https://maven.tterrag.com'
+    }
+    maven {
+        url 'https://www.cursemaven.com'
+        content {
+            includeGroup "curse.maven"
+        }
     }
 }
 
@@ -194,6 +212,11 @@ dependencies {
     compileOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}:api")
     // at runtime, use the full JEI jar
     runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}")
+
+    implementation fg.deobf("curse.maven:create-328085:3871091")
+    implementation fg.deobf("curse.maven:flywheel-486392:3871082")
+
+    annotationProcessor "org.spongepowered:mixin:${mixin_version}:processor"
 }
 
 // Example for how to get properties into the manifest for reading at runtime.
