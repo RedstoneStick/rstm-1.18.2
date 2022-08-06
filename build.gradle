@@ -213,6 +213,8 @@ dependencies {
     // at runtime, use the full JEI jar
     runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}")
 
+    implementation fg.deobf("curse.maven:the-one-probe-245211:3671753")
+
     implementation fg.deobf("curse.maven:create-328085:3871091")
     implementation fg.deobf("curse.maven:flywheel-486392:3871082")
 
