@@ -476,6 +476,12 @@ public class ModBlocks {
 
 
     // Machines
+    public static final RegistryObject<Block> GENERATOR_ALTERNATING_REDSTONE = registerBlock("generator_alternating_redstone",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(2f).explosionResistance(3f).
+                    sound(SoundType.METAL).requiresCorrectToolForDrops()), ModCreativeModTabs.MACHINES);
+
+
+
 
 
 
