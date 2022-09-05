@@ -31,6 +31,6 @@ public class ModCreativeModTabs {
 
     public static final CreativeModeTab MACHINES = new CreativeModeTab("rstm_tab_machines") {
         @Override
-        public ItemStack makeIcon() { return new ItemStack(Items.FURNACE); }
+        public ItemStack makeIcon() { return new ItemStack(ModBlocks.GENERATOR_ALTERNATING_REDSTONE_BLOCK_ITEM.get()); }
     };
 }
