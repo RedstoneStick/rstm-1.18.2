@@ -1,4 +1,4 @@
-package net.guwy.rstm.block.custom;
+package net.guwy.rstm.block.custom.building;
 
 import net.guwy.rstm.block.ModBlocks;
 import net.minecraft.core.BlockPos;

@@ -1,6 +1,6 @@
 package net.guwy.rstm.block.entity.custom;
 
-import net.guwy.rstm.block.custom.machines.GeneratorAlternatingRedstoneBlock;
+import net.guwy.rstm.block.custom.machines.generators.alternating_redstone.GeneratorAlternatingRedstoneBlock;
 import net.guwy.rstm.block.entity.ModBlockEntities;
 import net.guwy.rstm.util.ModEnergyStorage;
 import net.minecraft.core.BlockPos;
@@ -25,7 +25,7 @@ public class GeneratorAlternatingRedstoneBlockEntity extends BlockEntity {
     public static final BooleanProperty ACTIVATED = GeneratorAlternatingRedstoneBlock.ACTIVATED;
 
     public static final int POWER_CAPACITY = 30;
-    public static final int POWER_GEN = 5;
+    public static final int POWER_GEN = 10;
     public static final int POWER_SEND = 30;
 
     private final ModEnergyStorage ENERGY_STORAGE = new ModEnergyStorage(POWER_CAPACITY, 0, POWER_SEND) {
@@ -96,6 +96,8 @@ public class GeneratorAlternatingRedstoneBlockEntity extends BlockEntity {
             return;
         }
 
+        sendOutEnergy(pLevel, pPos, pState, pEntity);
+
         if(isCharged(pEntity)) {
             pEntity.setEnergyLevel(Math.min((pEntity.ENERGY_STORAGE.getEnergyStored() + POWER_GEN), POWER_CAPACITY));
 
@@ -105,7 +107,7 @@ public class GeneratorAlternatingRedstoneBlockEntity extends BlockEntity {
                     , 2);
         }
 
-        sendOutEnergy(pLevel, pPos, pState, pEntity);
+
 
     }
 

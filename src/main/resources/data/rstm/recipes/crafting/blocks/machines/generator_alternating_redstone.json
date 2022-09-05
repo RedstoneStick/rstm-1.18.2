@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "zkz",
+    "xyx",
+    "zkz"
+  ],
+  "key": {
+    "x": {
+      "tag": "forge:coils/copper"
+    },
+    "y": {
+      "item": "minecraft:redstone_block"
+    },
+    "z": {
+      "item": "rstm:panel_insulator"
+    },
+    "k": {
+      "tag": "forge:ingots/aluminum"
+    }
+  },
+  "result": {
+    "item": "rstm:generator_alternating_redstone_block_item",
+    "count": 1
+  }
+}

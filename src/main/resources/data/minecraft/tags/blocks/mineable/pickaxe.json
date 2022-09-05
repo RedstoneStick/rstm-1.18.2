@@ -33,6 +33,8 @@
     "rstm:steel_beam",
     "rstm:steel_pipes",
     "rstm:titanium_beam",
-    "rstm:titanium_pipes"
+    "rstm:titanium_pipes",
+
+    "rstm:generator_alternating_redstone"
   ]
 }

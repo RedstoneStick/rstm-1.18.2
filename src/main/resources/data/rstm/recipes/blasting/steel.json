@@ -1,9 +1,9 @@
 {
-  "type": "minecraft:smelting",
+  "type": "minecraft:blasting",
   "ingredient": {
     "item": "minecraft:iron_ingot"
   },
   "result": "rstm:steel_ingot",
   "experience": 1.0,
-  "cookingtime": 1600
+  "cookingtime": 2400
 }

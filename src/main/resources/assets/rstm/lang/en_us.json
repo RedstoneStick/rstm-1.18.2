@@ -178,6 +178,10 @@
   "block.rstm.lavender_potted": "Potted Lavender",
 
   "block.rstm.generator_alternating_redstone": "Alternating Redstone Generator",
+  "tooltip.rstm.generator_alternating_redstone.a": "§8Generates §710FE §8upon turning on. Will not generate",
+  "tooltip.rstm.generator_alternating_redstone.b": "§8constant energy if it stays on. You have to hook",
+  "tooltip.rstm.generator_alternating_redstone.c": "§8this to a §7cycling redstone §8signal. §7+10 §8style",
+  "tooltip.rstm.generator_alternating_redstone.d": "§8points if you do it with Redstone Contacts",
 
   "itemGroup.rstm_tab_blocks": "RSTM Blocks",
   "itemGroup.rstm_tab_materials": "RSTM Materials",
@@ -197,5 +201,7 @@
   "tooltip.rstm.potion_sword.b": "§7Duration:",
   "tooltip.rstm.potion_sword.c": "§7Chance:",
   "tooltip.rstm.titanium_armor.a": "§7-15% Movement Speed per",
-  "tooltip.rstm.titanium_armor.b": "§72 pieces of armor equipped"
+  "tooltip.rstm.titanium_armor.b": "§72 pieces of armor equipped",
+  "tooltip.rstm.block_summary.shift": "§8Press [§fShift§8] for Summary",
+  "tooltip.rstm.block_summary": "§8Press [§7Shift§8] for Summary"
 }

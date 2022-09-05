@@ -2,16 +2,15 @@ package net.guwy.rstm.block;
 
 import net.guwy.rstm.ModCreativeModTabs;
 import net.guwy.rstm.RsTm;
-import net.guwy.rstm.block.custom.*;
-import net.guwy.rstm.block.custom.machines.GeneratorAlternatingRedstoneBlock;
-import net.guwy.rstm.block.entity.custom.GeneratorAlternatingRedstoneBlockEntity;
+import net.guwy.rstm.block.custom.building.*;
+import net.guwy.rstm.block.custom.machines.generators.alternating_redstone.GeneratorAlternatingRedstoneBlock;
+import net.guwy.rstm.block.custom.machines.generators.alternating_redstone.GeneratorAlternatingRedstoneBlockItem;
 import net.guwy.rstm.item.ModItems;
 import net.guwy.rstm.world.feature.tree.PaleCreamTreeGrower;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TranslatableComponent;
-import net.minecraft.tags.BlockTags;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.effect.MobEffects;
@@ -23,7 +22,6 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.MaterialColor;
 import net.minecraft.world.phys.BlockHitResult;
@@ -32,15 +30,14 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import org.lwjgl.system.CallbackI;
 
 import java.util.List;
 import java.util.function.Supplier;
 
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, RsTm.MOD_ID);
+    public static final DeferredRegister<Item> BLOCK_ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, RsTm.MOD_ID);
 
 
 
@@ -479,10 +476,15 @@ public class ModBlocks {
 
 
     // Machines
-    public static final RegistryObject<Block> GENERATOR_ALTERNATING_REDSTONE = registerBlock("generator_alternating_redstone",
+    public static final RegistryObject<Block> GENERATOR_ALTERNATING_REDSTONE = registerBlockWithoutBlockItem("generator_alternating_redstone",
             () -> new GeneratorAlternatingRedstoneBlock(BlockBehaviour.Properties.of(Material.METAL).
                     strength(2f).explosionResistance(3f).sound(SoundType.METAL).requiresCorrectToolForDrops()
-            ), ModCreativeModTabs.MACHINES);
+            ));
+
+    public static final RegistryObject<Item> GENERATOR_ALTERNATING_REDSTONE_BLOCK_ITEM =
+            BLOCK_ITEMS.register("generator_alternating_redstone_block_item",
+            () -> new GeneratorAlternatingRedstoneBlockItem(GENERATOR_ALTERNATING_REDSTONE.get(),
+                    new Item.Properties().tab(ModCreativeModTabs.MACHINES)));
 
 
 
@@ -525,5 +527,8 @@ public class ModBlocks {
     }
 
 
-    public static void register(IEventBus eventBus) {BLOCKS.register(eventBus);}
+    public static void register(IEventBus eventBus) {
+        BLOCKS.register(eventBus);
+        BLOCK_ITEMS.register(eventBus);
+    }
 }

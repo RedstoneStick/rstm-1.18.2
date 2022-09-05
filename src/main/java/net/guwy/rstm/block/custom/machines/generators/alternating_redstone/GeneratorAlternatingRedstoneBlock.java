@@ -1,4 +1,4 @@
-package net.guwy.rstm.block.custom.machines;
+package net.guwy.rstm.block.custom.machines.generators.alternating_redstone;
 
 import net.guwy.rstm.block.entity.ModBlockEntities;
 import net.guwy.rstm.block.entity.custom.GeneratorAlternatingRedstoneBlockEntity;
