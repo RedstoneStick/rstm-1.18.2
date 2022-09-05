@@ -1,9 +1,8 @@
-package net.guwy.rstm.block.entity;
+package net.guwy.rstm.block;
 
 import net.guwy.rstm.RsTm;
 import net.guwy.rstm.block.ModBlocks;
-import net.guwy.rstm.block.entity.custom.GeneratorAlternatingRedstoneBlockEntity;
-import net.minecraft.world.level.block.entity.BlockEntity;
+import net.guwy.rstm.block.custom.machines.generators.alternating_redstone.GeneratorAlternatingRedstoneBlockEntity;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;

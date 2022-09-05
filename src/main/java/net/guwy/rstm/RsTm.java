@@ -1,7 +1,7 @@
 package net.guwy.rstm;
 
 import net.guwy.rstm.block.ModBlocks;
-import net.guwy.rstm.block.entity.ModBlockEntities;
+import net.guwy.rstm.block.ModBlockEntities;
 import net.guwy.rstm.item.ModItems;
 import net.guwy.rstm.painting.ModPaintings;
 import net.guwy.rstm.util.ModBlockTransparency;

@@ -1,17 +1,11 @@
 package net.guwy.rstm.block.custom.machines.generators.alternating_redstone;
 
-import net.guwy.rstm.block.entity.ModBlockEntities;
-import net.guwy.rstm.block.entity.custom.GeneratorAlternatingRedstoneBlockEntity;
-import net.guwy.rstm.util.ModTags;
+import net.guwy.rstm.block.ModBlockEntities;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
-import net.minecraft.core.Registry;
-import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.level.Explosion;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.block.BaseEntityBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.RenderShape;
@@ -20,12 +14,9 @@ import net.minecraft.world.level.block.entity.BlockEntityTicker;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
-import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraftforge.energy.EnergyStorage;
 import org.jetbrains.annotations.Nullable;
-
-import java.util.Random;
 
 public class GeneratorAlternatingRedstoneBlock extends BaseEntityBlock {
 

@@ -1,7 +1,6 @@
-package net.guwy.rstm.block.entity.custom;
+package net.guwy.rstm.block.custom.machines.generators.alternating_redstone;
 
-import net.guwy.rstm.block.custom.machines.generators.alternating_redstone.GeneratorAlternatingRedstoneBlock;
-import net.guwy.rstm.block.entity.ModBlockEntities;
+import net.guwy.rstm.block.ModBlockEntities;
 import net.guwy.rstm.util.ModEnergyStorage;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
