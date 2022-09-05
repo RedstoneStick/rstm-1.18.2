@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "activated=false": {
+      "model": "rstm:block/generator_alternating_redstone_off"
+    },
+    "activated=true": {
+      "model": "rstm:block/generator_alternating_redstone_on"
+    }
+  }
+}

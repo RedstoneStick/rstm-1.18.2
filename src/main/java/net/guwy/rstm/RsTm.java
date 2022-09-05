@@ -1,6 +1,7 @@
 package net.guwy.rstm;
 
 import net.guwy.rstm.block.ModBlocks;
+import net.guwy.rstm.block.entity.ModBlockEntities;
 import net.guwy.rstm.item.ModItems;
 import net.guwy.rstm.painting.ModPaintings;
 import net.guwy.rstm.util.ModBlockTransparency;
@@ -31,7 +32,10 @@ public class RsTm
 
         ModItems.register(eventBus);
         ModBlocks.register(eventBus);
+
         ModPaintings.register(eventBus);
+
+        ModBlockEntities.register(eventBus);
 
         eventBus.addListener(this::setup);
         eventBus.addListener(this::clientSetup);

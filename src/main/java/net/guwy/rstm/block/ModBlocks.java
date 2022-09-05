@@ -3,6 +3,8 @@ package net.guwy.rstm.block;
 import net.guwy.rstm.ModCreativeModTabs;
 import net.guwy.rstm.RsTm;
 import net.guwy.rstm.block.custom.*;
+import net.guwy.rstm.block.custom.machines.GeneratorAlternatingRedstoneBlock;
+import net.guwy.rstm.block.entity.custom.GeneratorAlternatingRedstoneBlockEntity;
 import net.guwy.rstm.item.ModItems;
 import net.guwy.rstm.world.feature.tree.PaleCreamTreeGrower;
 import net.minecraft.core.BlockPos;
@@ -21,6 +23,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.MaterialColor;
 import net.minecraft.world.phys.BlockHitResult;
@@ -477,8 +480,9 @@ public class ModBlocks {
 
     // Machines
     public static final RegistryObject<Block> GENERATOR_ALTERNATING_REDSTONE = registerBlock("generator_alternating_redstone",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(2f).explosionResistance(3f).
-                    sound(SoundType.METAL).requiresCorrectToolForDrops()), ModCreativeModTabs.MACHINES);
+            () -> new GeneratorAlternatingRedstoneBlock(BlockBehaviour.Properties.of(Material.METAL).
+                    strength(2f).explosionResistance(3f).sound(SoundType.METAL).requiresCorrectToolForDrops()
+            ), ModCreativeModTabs.MACHINES);
 
 
 
