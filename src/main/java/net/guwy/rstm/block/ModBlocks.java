@@ -41,6 +41,18 @@ public class ModBlocks {
 
 
 
+    // Machines
+    public static final RegistryObject<Block> GENERATOR_ALTERNATING_REDSTONE = registerBlockWithoutBlockItem("generator_alternating_redstone",
+            () -> new GeneratorAlternatingRedstoneBlock(BlockBehaviour.Properties.of(Material.METAL).
+                    strength(2f).explosionResistance(3f).sound(SoundType.METAL).requiresCorrectToolForDrops()
+            ));
+    public static final RegistryObject<Item> GENERATOR_ALTERNATING_REDSTONE_BLOCK_ITEM =
+            BLOCK_ITEMS.register("generator_alternating_redstone_block_item",
+                    () -> new GeneratorAlternatingRedstoneBlockItem(GENERATOR_ALTERNATING_REDSTONE.get(),
+                            new Item.Properties().tab(ModCreativeModTabs.MACHINES)));
+
+
+
     // Black Sand and its variants
     public static final RegistryObject<Block> BLACK_SAND = registerBlock("black_sand", () ->
             new FallingBlock(BlockBehaviour.Properties.of(Material.SAND).strength(3f).
@@ -472,19 +484,6 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> LAVENDER_POTTED = registerBlockWithoutBlockItem("lavender_potted", ()
             -> new FlowerPotBlock(null, ModBlocks.LAVENDER, BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
-
-
-
-    // Machines
-    public static final RegistryObject<Block> GENERATOR_ALTERNATING_REDSTONE = registerBlockWithoutBlockItem("generator_alternating_redstone",
-            () -> new GeneratorAlternatingRedstoneBlock(BlockBehaviour.Properties.of(Material.METAL).
-                    strength(2f).explosionResistance(3f).sound(SoundType.METAL).requiresCorrectToolForDrops()
-            ));
-
-    public static final RegistryObject<Item> GENERATOR_ALTERNATING_REDSTONE_BLOCK_ITEM =
-            BLOCK_ITEMS.register("generator_alternating_redstone_block_item",
-            () -> new GeneratorAlternatingRedstoneBlockItem(GENERATOR_ALTERNATING_REDSTONE.get(),
-                    new Item.Properties().tab(ModCreativeModTabs.MACHINES)));
 
 
 
