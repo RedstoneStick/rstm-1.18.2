@@ -55,12 +55,6 @@ A Mod About Space Travel And Tech
     ordering="NONE"
     side="BOTH"
 [[dependencies.rstm]]
-    modId="flywheel"
-    mandatory=true
-    versionRange="[1.18-0.6.2,1.18-0.7.0)"
-    ordering="AFTER"
-    side="CLIENT"
-[[dependencies.rstm]]
     modId="minecraft"
     mandatory=true
 # This version range declares a minimum of the current minecraft version up to but not including the next major version

@@ -177,6 +177,8 @@
   "block.rstm.lavender": "Lavender",
   "block.rstm.lavender_potted": "Potted Lavender",
 
+  "block.rstm.generator_alternating_redstone": "Alternating Redstone Generator",
+
   "itemGroup.rstm_tab_blocks": "RSTM Blocks",
   "itemGroup.rstm_tab_materials": "RSTM Materials",
   "itemGroup.rstm_tab_equipment": "RSTM Equipment and Consumables",
