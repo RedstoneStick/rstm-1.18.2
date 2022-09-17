@@ -5,6 +5,7 @@ import net.guwy.rstm.RsTm;
 import net.guwy.rstm.block.custom.building.*;
 import net.guwy.rstm.block.custom.machines.generators.alternating_redstone.GeneratorAlternatingRedstoneBlock;
 import net.guwy.rstm.block.custom.machines.generators.alternating_redstone.GeneratorAlternatingRedstoneBlockItem;
+import net.guwy.rstm.block.custom.machines.generators.alternator.GeneratorAlternatorBlock;
 import net.guwy.rstm.item.ModItems;
 import net.guwy.rstm.world.feature.tree.PaleCreamTreeGrower;
 import net.minecraft.core.BlockPos;
@@ -50,6 +51,11 @@ public class ModBlocks {
             BLOCK_ITEMS.register("generator_alternating_redstone_block_item",
                     () -> new GeneratorAlternatingRedstoneBlockItem(GENERATOR_ALTERNATING_REDSTONE.get(),
                             new Item.Properties().tab(ModCreativeModTabs.MACHINES)));
+
+    public static final RegistryObject<Block> GENERATOR_ALTERNATOR = registerBlock("generator_alternator",
+            () -> new GeneratorAlternatorBlock(BlockBehaviour.Properties.of(Material.METAL).
+                    strength(2f).explosionResistance(3f).sound(SoundType.METAL).requiresCorrectToolForDrops()
+                    .noOcclusion()), ModCreativeModTabs.MACHINES);
 
 
 

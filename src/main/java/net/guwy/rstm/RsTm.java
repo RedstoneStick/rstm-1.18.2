@@ -1,10 +1,12 @@
 package net.guwy.rstm;
 
+import com.simibubi.create.foundation.data.CreateRegistrate;
 import net.guwy.rstm.block.ModBlocks;
 import net.guwy.rstm.block.ModBlockEntities;
 import net.guwy.rstm.item.ModItems;
 import net.guwy.rstm.painting.ModPaintings;
 import net.guwy.rstm.util.ModBlockTransparency;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.common.MinecraftForge;
@@ -52,6 +54,10 @@ public class RsTm
         event.enqueueWork( () -> {
             ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(ModBlocks.LAVENDER.getId(), ModBlocks.LAVENDER_POTTED);
         });
+    }
+
+    public static CreateRegistrate registrate() {
+        return registrate();
     }
 
 

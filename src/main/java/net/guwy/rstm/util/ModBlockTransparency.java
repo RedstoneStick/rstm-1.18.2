@@ -21,5 +21,7 @@ public class ModBlockTransparency {
 
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.LAVENDER.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.LAVENDER_POTTED.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.GENERATOR_ALTERNATOR.get(), RenderType.cutout());
     }
 }
