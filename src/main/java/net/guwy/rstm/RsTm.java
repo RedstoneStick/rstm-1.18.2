@@ -1,6 +1,7 @@
 package net.guwy.rstm;
 
 import com.simibubi.create.foundation.data.CreateRegistrate;
+import com.simibubi.create.repack.registrate.util.nullness.NonNullSupplier;
 import net.guwy.rstm.block.ModBlocks;
 import net.guwy.rstm.block.ModBlockEntities;
 import net.guwy.rstm.item.ModItems;
@@ -56,8 +57,10 @@ public class RsTm
         });
     }
 
+    private static final NonNullSupplier<CreateRegistrate> registrate = CreateRegistrate.lazy(RsTm.MOD_ID);
+
     public static CreateRegistrate registrate() {
-        return registrate();
+        return registrate.get();
     }
 
 
